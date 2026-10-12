@@ -1,0 +1,1198 @@
+[
+  {
+    "id": "read-01",
+    "title": "7.1",
+    "items": [
+      {
+        "id": "read-01-1",
+        "label": "7.1.1",
+        "setId": "read-01",
+        "setTitle": "7.1",
+        "answer": "B",
+        "notice": "Road repairs starting here on\n1st September for four weeks\nexpect delays",
+        "prompt": "What does the text say?",
+        "options": [
+          {
+            "key": "A",
+            "text": "This part of the road will open again on 1st September"
+          },
+          {
+            "key": "B",
+            "text": "Your journey may take longer on this road in September"
+          },
+          {
+            "key": "C",
+            "text": "We are expecting more traffic on this road in September"
+          }
+        ]
+      },
+      {
+        "id": "read-01-2",
+        "label": "7.1.2",
+        "setId": "read-01",
+        "setTitle": "7.1",
+        "answer": "A",
+        "notice": "Welcome to Hotel Maroc\nDear Guest\nOur holiday advisor is available in the\nlounge everyday8-10 am for booking\nguided tours,museum/garden tickets,\ncamel rider\nEnjoy your stay!",
+        "prompt": "What does the text say?",
+        "options": [
+          {
+            "key": "A",
+            "text": "People staying at Hotel Maroc can arrange activities"
+          },
+          {
+            "key": "B",
+            "text": "Hotel Maroc's holiday advisor accompanies guests on"
+          },
+          {
+            "key": "C",
+            "text": "Daily sightseeing trips start from the Hotel Maroc"
+          }
+        ]
+      },
+      {
+        "id": "read-01-3",
+        "label": "7.1.3",
+        "setId": "read-01",
+        "setTitle": "7.1",
+        "answer": "C",
+        "notice": ". Online Booking Form\nName\nAddress\nNo. of tickets\nTickets booked within seven days of a\nperformance are kept for collection",
+        "prompt": "What does the text say?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Tickets will be sent to you within seven days of booking"
+          },
+          {
+            "key": "B",
+            "text": "When booking, advise staff if your tickets are to be kept for collection"
+          },
+          {
+            "key": "C",
+            "text": "We don't post tickets booked one week or less befor the performance"
+          }
+        ]
+      },
+      {
+        "id": "read-01-4",
+        "label": "7.1.4",
+        "setId": "read-01",
+        "setTitle": "7.1",
+        "answer": "A",
+        "notice": "New Message\nTo: All players\nFrom: Paul\nThe team is the same as last week-I've\nalready checked everyone can play\nAnyone needing a lift to Fyfield can\nphone me",
+        "prompt": "should contact Paul speak toPaul match must phone Paul",
+        "options": [
+          {
+            "key": "A",
+            "text": "Players who have a problem getting to the Fyfield match should contact Paul"
+          },
+          {
+            "key": "B",
+            "text": "Anyone who wants to play in the Fyfield game needs to speak to Paul"
+          },
+          {
+            "key": "C",
+            "text": "Team members who are not available forthe Fyfield match must phone Paul"
+          }
+        ]
+      },
+      {
+        "id": "read-01-5",
+        "label": "7.1.5",
+        "setId": "read-01",
+        "setTitle": "7.1",
+        "answer": "C",
+        "notice": ". IMPROVED SERVICE:\nFrom next month this bank\nwill remain open until2pm\non Saturdays",
+        "prompt": "What does the text say?",
+        "options": [
+          {
+            "key": "A",
+            "text": "After next month the bank will be open all weekend"
+          },
+          {
+            "key": "B",
+            "text": "The bank closes at 2 pm on weekdays"
+          },
+          {
+            "key": "C",
+            "text": "The bank will have longer opening hours in future"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "read-02",
+    "title": "7.2",
+    "items": [
+      {
+        "id": "read-02-1",
+        "label": "7.2.1",
+        "setId": "read-02",
+        "setTitle": "7.2",
+        "answer": "A",
+        "notice": "Mum,\nThe tennis teams meeting tonight，\nso I'm taking my tennis clothes for\nthe photo-can't wait to see\nmyself in it\nDaniel",
+        "prompt": "the tennis team tonight play in a match tonight of the tennis team tonight",
+        "options": [
+          {
+            "key": "A",
+            "text": "Daniel is having his photo taken with"
+          },
+          {
+            "key": "B",
+            "text": "Daniel needs his tennis clothes to"
+          },
+          {
+            "key": "C",
+            "text": "Daniel is taking a photo of the rest"
+          }
+        ]
+      },
+      {
+        "id": "read-02-2",
+        "label": "7.2.2",
+        "setId": "read-02",
+        "setTitle": "7.2",
+        "answer": "C",
+        "notice": ". Casal i Restaurant\nWe are open downstairs\nwhile improvements are\nmade to this area",
+        "prompt": "What does the text say?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Please come downstairs and try our recently improved"
+          },
+          {
+            "key": "B",
+            "text": "The restaurant will r reopen when thei improvements are"
+          },
+          {
+            "key": "C",
+            "text": "Youcan only eat in one part of the restaurant at the"
+          }
+        ]
+      },
+      {
+        "id": "read-02-3",
+        "label": "7.2.3",
+        "setId": "read-02",
+        "setTitle": "7.2",
+        "answer": "B",
+        "notice": "Ann-Marie\nEmma called. She's got|a free ticket for\nthis evening's concert as her boyfriend's\nbusy. I've already got one,\nbut if you want togo,call her before7\npm\nJoe",
+        "prompt": "spare ticket Joe tonight",
+        "options": [
+          {
+            "key": "A",
+            "text": "Joe and Emma should decide whether they want the"
+          },
+          {
+            "key": "B",
+            "text": "If Ann-Marie is free, she could go to the same concert as"
+          },
+          {
+            "key": "C",
+            "text": "Ann-Marie phoned to offer Emma her ticket toa concert"
+          }
+        ]
+      },
+      {
+        "id": "read-02-4",
+        "label": "7.2.4",
+        "setId": "read-02",
+        "setTitle": "7.2",
+        "answer": "C",
+        "notice": "ROOM TORENT\nAVAILABLE SO only UNEXPECTEDLY\n$250 per month\nincluding bills and fuel\nTel: Erik on\n663159",
+        "prompt": "gas and electricity empty",
+        "options": [
+          {
+            "key": "A",
+            "text": "People renting this room should expect to pay extra for gas and electricity"
+          },
+          {
+            "key": "B",
+            "text": "The rent for this room is reduced to $250 plus bills"
+          },
+          {
+            "key": "C",
+            "text": "This room is cheap to rent as it was not expected to be empty"
+          }
+        ]
+      },
+      {
+        "id": "read-02-5",
+        "label": "7.2.5",
+        "setId": "read-02",
+        "setTitle": "7.2",
+        "answer": "A",
+        "notice": "From:Maria Gomez\nTo:Sarah Smith\nPlease forgive the delay in writing\n-I've been so busy!\nmiss your English classes now\n'm back in Spain, but at least I\ncan understand everything here！",
+        "prompt": "What does the text say?",
+        "options": [
+          {
+            "key": "A",
+            "text": "explain why shehasn’t contacted Sarah Smith before"
+          },
+          {
+            "key": "B",
+            "text": "tell Sarah Smith how much her English has improved"
+          },
+          {
+            "key": "C",
+            "text": "thank Sarah Smith for her English classes in Spain"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "read-03",
+    "title": "7.3",
+    "items": [
+      {
+        "id": "read-03-1",
+        "label": "7.3.1",
+        "setId": "read-03",
+        "setTitle": "7.3",
+        "answer": "C",
+        "notice": "THIS DESK IS ONLY FOR THE\nCOLLECTION OF THEATRE\nTICKET\nBOOKED IN ADVANCE",
+        "prompt": "the theatre collection desk already booked",
+        "options": [
+          {
+            "key": "A",
+            "text": "You can buy a ticket at this desk to go straight into the theatre"
+          },
+          {
+            "key": "B",
+            "text": "You can book theatre tickets in advance at the collection desk"
+          },
+          {
+            "key": "C",
+            "text": "You can pickup theatre tickets here that you have already booked"
+          }
+        ]
+      },
+      {
+        "id": "read-03-2",
+        "label": "7.3.2",
+        "setId": "read-03",
+        "setTitle": "7.3",
+        "answer": "B",
+        "notice": "Bob\ntried to make you a\ndentist's appointment for\nFriday but they can only\ndo10a amon Monday. If\nthis is OK, ring\nbefore5pmtoday\nJill",
+        "prompt": "What does the text say?",
+        "options": [
+          {
+            "key": "A",
+            "text": "make a dentist's appointment forJill"
+          },
+          {
+            "key": "B",
+            "text": "phone the dentist about an appointment"
+          },
+          {
+            "key": "C",
+            "text": "tell Jill when he can go to the dentist"
+          }
+        ]
+      },
+      {
+        "id": "read-03-3",
+        "label": "7.3.3",
+        "setId": "read-03",
+        "setTitle": "7.3",
+        "answer": "A",
+        "notice": "F YOUR SHOES ARE DIRTY\nPLEASE REMOVE THEM BEFORE\nENTERING THIS\nCHANGING ROOM",
+        "prompt": "unless they are dirty room before you come in room entrance",
+        "options": [
+          {
+            "key": "A",
+            "text": "You can keep your shoes on in the changing groom"
+          },
+          {
+            "key": "B",
+            "text": "Clean your shoes at the entrance to the changing"
+          },
+          {
+            "key": "C",
+            "text": "All shoes must be taken off and left at the changing"
+          }
+        ]
+      },
+      {
+        "id": "read-03-4",
+        "label": "7.3.4",
+        "setId": "read-03",
+        "setTitle": "7.3",
+        "answer": "C",
+        "notice": ". MESSAGE\nTony\nMaria's sorry but she's going to\nbe late this evening. The train is\ndelayed again! Don't\nyou're meeting her at the station\nShe should be there at7.15\nAnita",
+        "prompt": "What is Anita doing? tforget",
+        "options": [
+          {
+            "key": "A",
+            "text": "explaining that she will be late"
+          },
+          {
+            "key": "B",
+            "text": "apologizing for missing the meeting"
+          },
+          {
+            "key": "C",
+            "text": "reminding somebody of an arrangement"
+          }
+        ]
+      },
+      {
+        "id": "read-03-5",
+        "label": "7.3.5",
+        "setId": "read-03",
+        "setTitle": "7.3",
+        "answer": "A",
+        "notice": "NTERNATIONAL\nSTUDENTS ' CLUB\nNext Saturday's coach\ntrip ls cancelled\nbecause of lack\nof interest",
+        "prompt": "A To avoid us cancelling another Saturday trip,tell us what your interests are B Saturday's coach tripis cancelled because there are transport problems CWe are cancelling the trip on Saturday as numbers are too low",
+        "options": []
+      }
+    ]
+  },
+  {
+    "id": "read-04",
+    "title": "7.4",
+    "items": [
+      {
+        "id": "read-04-1",
+        "label": "7.4.1",
+        "setId": "read-04",
+        "setTitle": "7.4",
+        "answer": "C",
+        "notice": "*End of Term Party*\nDecember15th7-10pm\nSign below if you can come!\nWe also need people to\nhelp organize the event-\ncalls Sophie (678853)",
+        "prompt": "this event should sign the notice names on the notice",
+        "options": [
+          {
+            "key": "A",
+            "text": "You need to phone Sophie if you want to come to"
+          },
+          {
+            "key": "B",
+            "text": "Anyone wanting to take part in running this event"
+          },
+          {
+            "key": "C",
+            "text": "People who can attend this event should put their"
+          }
+        ]
+      },
+      {
+        "id": "read-04-2",
+        "label": "7.4.2",
+        "setId": "read-04",
+        "setTitle": "7.4",
+        "answer": "C",
+        "notice": ". New\nmessage\nFrom:Hinton exhibitions@TCK. co. uk\nSubject:Guitar Show\nThe Guitar Show ret unr s to Hinton\nExhibition Centre on6March. Many\nnew guitars will be on display. Theshow\nis open to schools and the general\npublic",
+        "prompt": "The main purpose of this email is",
+        "options": [
+          {
+            "key": "A",
+            "text": "to invite people to display goods at an exhibition"
+          },
+          {
+            "key": "B",
+            "text": "to explain booking details for a show"
+          },
+          {
+            "key": "C",
+            "text": "to provide information about an event"
+          }
+        ]
+      },
+      {
+        "id": "read-04-3",
+        "label": "7.4.3",
+        "setId": "read-04",
+        "setTitle": "7.4",
+        "answer": "A",
+        "notice": "HiAbdul,\nwon't be in college as I'm not\nwell. Please call round on your\nway into pickup my homework\n-it's due in today\nThanks,Aziz",
+        "prompt": "Aziz wants Abdul to today",
+        "options": [
+          {
+            "key": "A",
+            "text": "take his homework to college for him"
+          },
+          {
+            "key": "B",
+            "text": "call their college to say that he is not well"
+          },
+          {
+            "key": "C",
+            "text": "pick up any new homework given out at college"
+          }
+        ]
+      },
+      {
+        "id": "read-04-4",
+        "label": "7.4.4",
+        "setId": "read-04",
+        "setTitle": "7.4",
+        "answer": "A",
+        "notice": "Once opened,\nremove any unused\nsoup from the tin\nand place in the\nrefrigerator",
+        "prompt": "SOUP This label gives advice on",
+        "options": [
+          {
+            "key": "A",
+            "text": "how tostore the product"
+          },
+          {
+            "key": "B",
+            "text": "how to use the product"
+          },
+          {
+            "key": "C",
+            "text": "how to open the product"
+          }
+        ]
+      },
+      {
+        "id": "read-04-5",
+        "label": "7.4.5",
+        "setId": "read-04",
+        "setTitle": "7.4",
+        "answer": "B",
+        "notice": "Wanted:Kitchen Assistants\nEvenings or weekends\nFree meals\nFull training provided\nApply inside",
+        "prompt": "should apply for these part-time jobs without experience of working in a kitchen timein our kitchen",
+        "options": [
+          {
+            "key": "A",
+            "text": "Only people who are trained in kitchen work"
+          },
+          {
+            "key": "B",
+            "text": "There arepart-time opportunities for people"
+          },
+          {
+            "key": "C",
+            "text": "We offer cheap meals to people whowork part-"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "read-05",
+    "title": "8.1",
+    "items": [
+      {
+        "id": "read-05-1",
+        "label": "8.1.1",
+        "setId": "read-05",
+        "setTitle": "8.1",
+        "answer": "C",
+        "notice": "From:Tropical Travel\nTo:Sally Jones\nHere are the details you requested\nWe have reserved your hol day\nbooking until9pm tonight,butwill\nrequire100to complete i",
+        "prompt": "If Sally wants togo on the holiday shemust",
+        "options": [
+          {
+            "key": "A",
+            "text": "send the details that were requested"
+          },
+          {
+            "key": "B",
+            "text": "contact the travel agency for further information"
+          },
+          {
+            "key": "C",
+            "text": "pay a deposit this evening"
+          }
+        ]
+      },
+      {
+        "id": "read-05-2",
+        "label": "8.1.2",
+        "setId": "read-05",
+        "setTitle": "8.1",
+        "answer": "B",
+        "notice": "Peter\nThe garage called. Your car is ready\nfor collection. The key will be in\ntheir office until5.30. Otherwise\nbring your spare key and get the\nother one another time",
+        "prompt": "car to collect his car",
+        "options": [
+          {
+            "key": "A",
+            "text": "Even if the garage is closed Peter can pick up his car"
+          },
+          {
+            "key": "B",
+            "text": "Peter should reach the garage before 5.30 in order to collect his car"
+          },
+          {
+            "key": "C",
+            "text": "Peter cannot get his car until he collects the key"
+          }
+        ]
+      },
+      {
+        "id": "read-05-3",
+        "label": "8.1.3",
+        "setId": "read-05",
+        "setTitle": "8.1",
+        "answer": "B",
+        "notice": "Keep your bus ticket. Transport\nofficers may request tosee it at\nany time",
+        "prompt": "transport officer journey a transport officer",
+        "options": [
+          {
+            "key": "A",
+            "text": "If you lose your bus ticket, you should inform a"
+          },
+          {
+            "key": "B",
+            "text": "There could be ticket checks during your bus"
+          },
+          {
+            "key": "C",
+            "text": "Passengers without a ticket may request one from"
+          }
+        ]
+      },
+      {
+        "id": "read-05-4",
+        "label": "8.1.4",
+        "setId": "read-05",
+        "setTitle": "8.1",
+        "answer": "B",
+        "notice": "Paula\nCan you give Lewis a ring a this home?\nwarned him you'd be back late but\nhesaid that didn't matter. I'm going\nout. See you tomorrow\nJen",
+        "prompt": "Jen says that tomorrow home",
+        "options": [
+          {
+            "key": "A",
+            "text": "Lewis didn’t know that Paula was away until"
+          },
+          {
+            "key": "B",
+            "text": "Lewis doesn't mind what time Paula calls him at"
+          },
+          {
+            "key": "C",
+            "text": "Lewis won't call Paula until late this evening"
+          }
+        ]
+      },
+      {
+        "id": "read-05-5",
+        "label": "8.1.5",
+        "setId": "read-05",
+        "setTitle": "8.1",
+        "answer": "A",
+        "notice": "Hunter Museum closed\nRe-opens15September\nEntry free\nGuided tours only\nBook early",
+        "prompt": "What does the text say?",
+        "options": [
+          {
+            "key": "A",
+            "text": "will have to join a group"
+          },
+          {
+            "key": "B",
+            "text": "will be free to go round alone"
+          },
+          {
+            "key": "C",
+            "text": "will have to pay for a tour guide"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "read-06",
+    "title": "8.2",
+    "items": [
+      {
+        "id": "read-06-1",
+        "label": "8.2.1",
+        "setId": "read-06",
+        "setTitle": "8.2",
+        "answer": "B",
+        "notice": "Ted,\nOnyour way home from work\ntonight,can you pick up\nvegetables? I promised l ' d make Kate\nsome soup but haven't had time togo\nshopping\nThanks!\nLiz",
+        "prompt": "What does the text say?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Liz plans to go shopping with Kate tonight"
+          },
+          {
+            "key": "B",
+            "text": "Liz needs Ted to buy some ingredients for her"
+          },
+          {
+            "key": "C",
+            "text": "Liz wants some advice on how to make vegetable soup"
+          }
+        ]
+      },
+      {
+        "id": "read-06-2",
+        "label": "8.2.2",
+        "setId": "read-06",
+        "setTitle": "8.2",
+        "answer": "B",
+        "notice": "To:Martin From:Dan\nThere are some places available in\nthe orchestra，so if you know people\nwho'd like to join us,why not bring\nthem along to a practice session?",
+        "prompt": "What does the text say?",
+        "options": [
+          {
+            "key": "A",
+            "text": "to persuade Martin tojoin the orchestra"
+          },
+          {
+            "key": "B",
+            "text": "to increase the number of people in the orchestra"
+          },
+          {
+            "key": "C",
+            "text": "toget help from people to set up an orchestra"
+          }
+        ]
+      },
+      {
+        "id": "read-06-3",
+        "label": "8.2.3",
+        "setId": "read-06",
+        "setTitle": "8.2",
+        "answer": "C",
+        "notice": "Instructions for Medicine:\nTAKE ONE OR TWO TABLETS DAILY, \nIN WATER\nTHROWAWAY REMAINING MEDICINE\nAFTER ONE MONTH",
+        "prompt": "What does the text say?",
+        "options": [
+          {
+            "key": "A",
+            "text": "You should take this medicine twice daily for a month"
+          },
+          {
+            "key": "B",
+            "text": "You should finish all of this medicine within one month"
+          },
+          {
+            "key": "C",
+            "text": "You should get rid of any medicine that is left after a"
+          }
+        ]
+      },
+      {
+        "id": "read-06-4",
+        "label": "8.2.4",
+        "setId": "read-06",
+        "setTitle": "8.2",
+        "answer": "C",
+        "notice": "FREE!\nPIZZA FROM OUR CAFE\nWITH EVERY\nCINEMA TICKET\nBOUGHT FROM OUR\nTICKET DESK!",
+        "prompt": "What does the text say?",
+        "options": [
+          {
+            "key": "A",
+            "text": "collect a free pizza at the cinema ticket desk"
+          },
+          {
+            "key": "B",
+            "text": "go into the cinema for free if they buy pizza from the"
+          },
+          {
+            "key": "C",
+            "text": "get pizza for nothing when they pay to go into the"
+          }
+        ]
+      },
+      {
+        "id": "read-06-5",
+        "label": "8.2.5",
+        "setId": "read-06",
+        "setTitle": "8.2",
+        "answer": "A",
+        "notice": "Sarah,\n'I've left my handbag at the office，so\nI'm just walking back to get it\nWait for meat the cafe-I won't be\nlong!\nAnna",
+        "prompt": "What does the text say?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Anna is going to be late getting to the cafe"
+          },
+          {
+            "key": "B",
+            "text": "Anna has forgotten the way to the cafe"
+          },
+          {
+            "key": "C",
+            "text": "Anna is collecting Sarah's handbag from the cafe"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "read-07",
+    "title": "8.3",
+    "items": [
+      {
+        "id": "read-07-1",
+        "label": "8.3.1",
+        "setId": "read-07",
+        "setTitle": "8.3",
+        "answer": "C",
+        "notice": "Karen,\nYour French teacher rang earlier\n-the Tuesday evening class vo u\nwanted next term IS\nThursdays available if you can\ngo then instead. He'll ring\nlater. Jan",
+        "prompt": "classes on two evenings per week full. but earlier time this term gback ：Karen needs to decide whether to change ethe evening that she has classes",
+        "options": [
+          {
+            "key": "A",
+            "text": "Karen has the possibility of attending French classes on two evenings per week"
+          },
+          {
+            "key": "B",
+            "text": "Karen s evening classes will now start at an earlier time this term"
+          },
+          {
+            "key": "C",
+            "text": "Karen needs to decide whether to change the evening that she has classes"
+          }
+        ]
+      },
+      {
+        "id": "read-07-2",
+        "label": "8.3.2",
+        "setId": "read-07",
+        "setTitle": "8.3",
+        "answer": "C",
+        "notice": "LOCAL FARMERS\nSUPPLY ALL THIS\nSUPERMARKET 'S\nVEGETABLES-KEEPING\nPRICES LOW\nFOR OUR CUSTOMERS!",
+        "prompt": "with the cheapest prices fresh food than ours money",
+        "options": [
+          {
+            "key": "A",
+            "text": "We get fresh vegetables from the farmers"
+          },
+          {
+            "key": "B",
+            "text": "We promise you won’t find lower-priced"
+          },
+          {
+            "key": "C",
+            "text": "We buy our fresh vegetables locally to save you"
+          }
+        ]
+      },
+      {
+        "id": "read-07-3",
+        "label": "8.3.3",
+        "setId": "read-07",
+        "setTitle": "8.3",
+        "answer": "B",
+        "notice": "Jack.\n My car broke down\non the motorway\n so I'll be late picking you up. I'm on the\nyou at your house way again now-see in 30 minutes \nDavid",
+        "prompt": "motorway at the moment soon",
+        "options": [
+          {
+            "key": "A",
+            "text": "David is fixing his broken car on the motorway at the moment"
+          },
+          {
+            "key": "B",
+            "text": "David is half an hour away from where Jack lives "
+          },
+          {
+            "key": "C",
+            "text": "David is hoping Jack will collect him in his car soon"
+          }
+        ]
+      },
+      {
+        "id": "read-07-4",
+        "label": "8.3.4",
+        "setId": "read-07",
+        "setTitle": "8.3",
+        "answer": "A",
+        "notice": ". New Message\nTo:Denise\nFrom:Maria\nAbout that sweater you borrowed\nfor skiing last time-could\nbring it round to my place? I'm\ngoing snowboarding with Mark\nsoon and cold!",
+        "prompt": "her a while ago you her and Mark that she canwear for snowboarding",
+        "options": [
+          {
+            "key": "A",
+            "text": "Maria needs Denise to return something shelent"
+          },
+          {
+            "key": "B",
+            "text": "Maria is inviting Denise to go somewhere with"
+          },
+          {
+            "key": "C",
+            "text": "Maria wants to borrow something from Denise"
+          }
+        ]
+      },
+      {
+        "id": "read-07-5",
+        "label": "8.3.5",
+        "setId": "read-07",
+        "setTitle": "8.3",
+        "answer": "C",
+        "notice": "PARKING\nHOSPITAL VISITORS ONLY\nWAITING LIMITED TO\nTWO HOURS\nFOLLOW SIGNS TO STAFF\nPARKING",
+        "prompt": "than two hours their cars here a short time",
+        "options": [
+          {
+            "key": "A",
+            "text": "Only hospital visitors can park here for longer"
+          },
+          {
+            "key": "B",
+            "text": "Members of hospital staff are allowed to leave"
+          },
+          {
+            "key": "C",
+            "text": "This car park is for people visiting the hospital for"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "read-08",
+    "title": "8.4",
+    "items": [
+      {
+        "id": "read-08-1",
+        "label": "8.4.1",
+        "setId": "read-08",
+        "setTitle": "8.4",
+        "answer": "C",
+        "notice": "John\n'I've seen an advert for a new '\nFrench restaurant in the town\ncentre. Have you eaten there?\nWould it be suitable ' or Mum's\nbirthday on Saturday?\nJulie",
+        "prompt": "What does the text say?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Julie is asking John if French food is available at a new restaurant"
+          },
+          {
+            "key": "B",
+            "text": "Julie is inviting John to a birthday party in the town centre"
+          },
+          {
+            "key": "C",
+            "text": "Julie wants John's advice about a venue for a family celebration"
+          }
+        ]
+      },
+      {
+        "id": "read-08-2",
+        "label": "8.4.2",
+        "setId": "read-08",
+        "setTitle": "8.4",
+        "answer": "C",
+        "notice": "Olympia Sportswear\nFurther discounts\navailable on certain\nsale items. Check\nlabel for details",
+        "prompt": "What does the text say?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Customers can get discounts on all goods in the sale"
+          },
+          {
+            "key": "B",
+            "text": "Customers can only get reduced p prices on goods with labels"
+          },
+          {
+            "key": "C",
+            "text": "Customers can get special prices on some goods"
+          }
+        ]
+      },
+      {
+        "id": "read-08-3",
+        "label": "8.4.3",
+        "setId": "read-08",
+        "setTitle": "8.4",
+        "answer": "A",
+        "notice": "To: Bill\nFrom : Sonia\nHi\nI have to let the theatre know how many\ntickets are needed. Have you decided\nyet whether to come with us or not?",
+        "prompt": "Sonia has written the email to",
+        "options": [
+          {
+            "key": "A",
+            "text": "find out if Bill want st theatre ticket"
+          },
+          {
+            "key": "B",
+            "text": "tell Bill how many theatre tickets they need"
+          },
+          {
+            "key": "C",
+            "text": "remind Bill to get some theatre tickets"
+          }
+        ]
+      },
+      {
+        "id": "read-08-4",
+        "label": "8.4.4",
+        "setId": "read-08",
+        "setTitle": "8.4",
+        "answer": "A",
+        "notice": "Matt\nSunday's race starts at10.00. We can\npickup our numbers at registration one\nhour before. There areno changing\nfacilities so we must arrive ready to\nrun",
+        "prompt": "starts leaves home C Jo. is expecting Matt to collect their race numbers from registration before she arrives",
+        "options": [
+          {
+            "key": "A",
+            "text": "Jo wants Matt to pick her up an hour before the race starts"
+          },
+          {
+            "key": "B",
+            "text": "Jo is reminding Matt to put on his running kit before he leaves home"
+          },{
+            "key": "C",
+            "text": "Jo is expecting Matt to collect their race numbers from registration before she arrives"
+          }
+        ]
+      },
+      {
+        "id": "read-08-5",
+        "label": "8.4.5",
+        "setId": "read-08",
+        "setTitle": "8.4",
+        "answer": "B",
+        "notice": "COMFORTABLE S OF A\n20\ntoo large for my new\napartment\nBuyer must collect\nCall Andre:298354",
+        "prompt": "What does the text say?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Andre wants to buy a large s of a for his new apartment"
+          },
+          {
+            "key": "B",
+            "text": "Andre will sell his sofa as long as it is taken away"
+          },
+          {
+            "key": "C",
+            "text": "Buyers should call Andre to arrange transport for the"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "read-09",
+    "title": "Plus 2.2",
+    "items": [
+      {
+        "id": "read-09-1",
+        "label": "Plus 2.2.1",
+        "setId": "read-09",
+        "setTitle": "Plus 2.2",
+        "answer": "C",
+        "notice": "Samir,\nJosh rang to say tickets are still available\nfor the Helix concert-you're not toolate!\nHe's able to get you a ticket. Let him know\ntoday if you're interested",
+        "prompt": "What must Samir do",
+        "options": [
+          {
+            "key": "A",
+            "text": "find out if Josh is interested in going to the concert"
+          },
+          {
+            "key": "B",
+            "text": "let Josh know if tickets are available for the concert"
+          },
+          {
+            "key": "C",
+            "text": "contact Josh if he wants togo to the concert"
+          }
+        ]
+      },
+      {
+        "id": "read-09-2",
+        "label": "Plus 2.2.2",
+        "setId": "read-09",
+        "setTitle": "Plus 2.2",
+        "answer": "B",
+        "notice": "BEFORE LEAVING TRAIN\nYOO MUST CHECK YOU HAVE\nALL YOUR LUGGAGE",
+        "prompt": "What does the text say?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Passengers mustn't put any luggage near the train doors"
+          },
+          {
+            "key": "B",
+            "text": "Passengers s should remember to takeall their bags with"
+          },
+          {
+            "key": "C",
+            "text": "Passengers with large suitcases may leave them between"
+          }
+        ]
+      },
+      {
+        "id": "read-09-3",
+        "label": "Plus 2.2.3",
+        "setId": "read-09",
+        "setTitle": "Plus 2.2",
+        "answer": "A",
+        "notice": "To:Gina\nFrom:Andrea\nSorry tohear your knee is so painful,you\nare notable to play tennis with me. Why\ndon't we meet in town on Friday\nSaturday instead? Which is better?",
+        "prompt": "The main purpose of the email is to or",
+        "options": [
+          {
+            "key": "A",
+            "text": "suggest something"
+          },
+          {
+            "key": "B",
+            "text": "apologize for something"
+          },
+          {
+            "key": "C",
+            "text": "recommend something"
+          }
+        ]
+      },
+      {
+        "id": "read-09-4",
+        "label": "Plus 2.2.4",
+        "setId": "read-09",
+        "setTitle": "Plus 2.2",
+        "answer": "C",
+        "notice": "Make sure youhave enough\nwith you before filling your\nwith petrol",
+        "prompt": "money filling your car car with petrol are able topay you",
+        "options": [
+          {
+            "key": "A",
+            "text": "You must check you have chosen the right petrol before"
+          },
+          {
+            "key": "B",
+            "text": "You can pay with cash or credit card after filling your car"
+          },
+          {
+            "key": "C",
+            "text": "You shouldn't put petrol in your car without checking"
+          }
+        ]
+      },
+      {
+        "id": "read-09-5",
+        "label": "Plus 2.2.5",
+        "setId": "read-09",
+        "setTitle": "Plus 2.2",
+        "answer": "B",
+        "notice": "Jake You're coming\nSonia's party tonight，aren't\nnono needn't worry\nfood there'll be plenty\nthere. Why not bring your\nnew cDs though? Ring me，I'11\npick you up\nLena",
+        "prompt": "to party about party",
+        "options": [
+          {
+            "key": "A",
+            "text": "Lena wants Jake to give her a lift to Sonia's party"
+          },
+          {
+            "key": "B",
+            "text": "Lena thinks Jake should take some music to Sonia's"
+          },
+          {
+            "key": "C",
+            "text": "Lena would like Jake to bring something to eat at Sonia’s"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "read-10",
+    "title": "Plus 2.3",
+    "items": [
+      {
+        "id": "read-10-1",
+        "label": "Plus 2.3.1",
+        "setId": "read-10",
+        "setTitle": "Plus 2.3",
+        "answer": "C",
+        "notice": "THESE BOOKS CANBEB BORROWED\nTWO DAYS S WITH THE PERMISSION OF A\nTEACHER",
+        "prompt": "FOR longer than two days after two days away for two days",
+        "options": [
+          {
+            "key": "A",
+            "text": "Only teachers s are allowed to borrow these books for"
+          },
+          {
+            "key": "B",
+            "text": "Give these books to a teacher when you bring them back"
+          },
+          {
+            "key": "C",
+            "text": "You need to ask a teacher before taking one of the books"
+          }
+        ]
+      },
+      {
+        "id": "read-10-2",
+        "label": "Plus 2.3.2",
+        "setId": "read-10",
+        "setTitle": "Plus 2.3",
+        "answer": "A",
+        "notice": "James,\nNeil rang. He can't\ntennis with you tomorrow\nunless you lend him a racket\nbecause his is broken\ncan't repaired",
+        "prompt": "tennis games tomorrow play is repaired and",
+        "options": [
+          {
+            "key": "A",
+            "text": "Neil is asking to borrow a racket from James for their"
+          },
+          {
+            "key": "B",
+            "text": "Neil has cancelled tomorrow's tennis game with James"
+          },
+          {
+            "key": "C",
+            "text": "Neil will p play tennis with James when his broken racket"
+          }
+        ]
+      },
+      {
+        "id": "read-10-3",
+        "label": "Plus 2.3.3",
+        "setId": "read-10",
+        "setTitle": "Plus 2.3",
+        "answer": "C",
+        "notice": "THIS BRIDGE WILLBE CLOSED\nFOR REPAIRS FROM SUNDAY\nMIDDAY FOR TWO WEEKS",
+        "prompt": "beginning on Sunday at midday midday",
+        "options": [
+          {
+            "key": "A",
+            "text": "This bridge will be repaired 1in two weeks’t time"
+          },
+          {
+            "key": "B",
+            "text": "Repairs on this bridge will finish on Sunday at midday"
+          },
+          {
+            "key": "C",
+            "text": "It will not be possible to use this bridge on Sunday after"
+          }
+        ]
+      },
+      {
+        "id": "read-10-4",
+        "label": "Plus 2.3.4",
+        "setId": "read-10",
+        "setTitle": "Plus 2.3",
+        "answer": "B",
+        "notice": "To : Emma\nFrom : Anna\nHi Emma\nCan you look for my hat? I had it in your\ncar so it might be there. If not,it might\nbe in your flat somewhere\nLove , Anna",
+        "prompt": "What does the text say?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Anna remembers leaving her hat in Emma's car"
+          },
+          {
+            "key": "B",
+            "text": "Anna isn't sure exactly where her hat is"
+          },
+          {
+            "key": "C",
+            "text": "Anna wants Emma to return her hats he borrowed"
+          }
+        ]
+      },
+      {
+        "id": "read-10-5",
+        "label": "Plus 2.3.5",
+        "setId": "read-10",
+        "setTitle": "Plus 2.3",
+        "answer": "B",
+        "notice": "f you want togo on the trip\nEdinburgh, pay $20 deposit\nThursday",
+        "prompt": "to on Thursday on goto Edinburgh Thursday",
+        "options": [
+          {
+            "key": "A",
+            "text": "You'll need to take at least $20 with you to Edinburgh"
+          },
+          {
+            "key": "B",
+            "text": "Unless you pay S20 by Thursday, you won't be able to"
+          },
+          {
+            "key": "C",
+            "text": "The trip to Edinburgh costs S20 in total to be paid by"
+          }
+        ]
+      }
+    ]
+  }
+]

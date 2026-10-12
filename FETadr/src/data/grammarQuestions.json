@@ -1,0 +1,2692 @@
+[
+  {
+    "number": 1,
+    "pageId": "g1",
+    "topic": "Quá khứ đơn / tiếp diễn",
+    "stem": "The sun ______ when I ______ up this morning",
+    "options": [
+      {
+        "key": "A",
+        "text": "was shining/woke"
+      },
+      {
+        "key": "B",
+        "text": "shone/was waking"
+      },
+      {
+        "key": "C",
+        "text": "shone/woke"
+      },
+      {
+        "key": "D",
+        "text": "was shining/was waking"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 2,
+    "pageId": "g1",
+    "topic": "Quá khứ đơn / tiếp diễn",
+    "stem": "All the children ______ when their father ______ the front door",
+    "options": [
+      {
+        "key": "A",
+        "text": "slept/was opening"
+      },
+      {
+        "key": "B",
+        "text": "were sleeping/opened"
+      },
+      {
+        "key": "C",
+        "text": "slept/opened"
+      },
+      {
+        "key": "D",
+        "text": "were sleeping/was opening"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "number": 3,
+    "pageId": "g1",
+    "topic": "Quá khứ đơn / tiếp diễn",
+    "stem": "I ______ dinner when you ______ me",
+    "options": [
+      {
+        "key": "A",
+        "text": "was eating/called"
+      },
+      {
+        "key": "B",
+        "text": "ate/was calling"
+      },
+      {
+        "key": "C",
+        "text": "ate/called"
+      },
+      {
+        "key": "D",
+        "text": "was eating/ was calling"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 4,
+    "pageId": "g1",
+    "topic": "Quá khứ đơn / tiếp diễn",
+    "stem": "I ______ dinner when the phone ______",
+    "options": [
+      {
+        "key": "A",
+        "text": "cooked/rang"
+      },
+      {
+        "key": "B",
+        "text": "was cooking/rang"
+      },
+      {
+        "key": "C",
+        "text": "cooked/was ringing"
+      },
+      {
+        "key": "D",
+        "text": "was cooking/was ringing"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "number": 5,
+    "pageId": "g1",
+    "topic": "Quá khứ đơn / tiếp diễn",
+    "stem": "While I ______ homework, my mother ______ at the door",
+    "options": [
+      {
+        "key": "A",
+        "text": "did/knocked"
+      },
+      {
+        "key": "B",
+        "text": "did/was knocking"
+      },
+      {
+        "key": "C",
+        "text": "was doing/knocked"
+      },
+      {
+        "key": "D",
+        "text": "was doing/was knocking"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "number": 6,
+    "pageId": "g1",
+    "topic": "Quá khứ đơn / tiếp diễn",
+    "stem": "Mr. Thompson ______ very fast when he ______ a tree",
+    "options": [
+      {
+        "key": "A",
+        "text": "drove/hit"
+      },
+      {
+        "key": "B",
+        "text": "was driving/hit"
+      },
+      {
+        "key": "C",
+        "text": "drove/was hitting"
+      },
+      {
+        "key": "D",
+        "text": "was driving/was hitting"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "number": 7,
+    "pageId": "g1",
+    "topic": "Quá khứ đơn / tiếp diễn",
+    "stem": "Jack ______ the cows when a stranger ______ into the barn",
+    "options": [
+      {
+        "key": "A",
+        "text": "milked/came"
+      },
+      {
+        "key": "B",
+        "text": "was milking/came"
+      },
+      {
+        "key": "C",
+        "text": "milked/was coming"
+      },
+      {
+        "key": "D",
+        "text": "was milking/was coming"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "number": 8,
+    "pageId": "g1",
+    "topic": "Quá khứ đơn / tiếp diễn",
+    "stem": "Susan ______ the burglar while he ______ into his car",
+    "options": [
+      {
+        "key": "A",
+        "text": "saw/rushed"
+      },
+      {
+        "key": "B",
+        "text": "was seeing/rushed"
+      },
+      {
+        "key": "C",
+        "text": "saw/was rushing"
+      },
+      {
+        "key": "D",
+        "text": "was seeing/was rushing"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "number": 9,
+    "pageId": "g1",
+    "topic": "Quá khứ đơn / tiếp diễn",
+    "stem": "When my mobile phone ______ I ______ on a pair of shoes in a shop",
+    "options": [
+      {
+        "key": "A",
+        "text": "was ringing/tried"
+      },
+      {
+        "key": "B",
+        "text": "rang/was trying"
+      },
+      {
+        "key": "C",
+        "text": "rang/tried"
+      },
+      {
+        "key": "D",
+        "text": "was ringing/was trying"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "number": 10,
+    "pageId": "g1",
+    "topic": "Quá khứ đơn / tiếp diễn",
+    "stem": "While I ______ for my keys, I ______ this old photograph",
+    "options": [
+      {
+        "key": "A",
+        "text": "was looking/found"
+      },
+      {
+        "key": "B",
+        "text": "looked/was finding"
+      },
+      {
+        "key": "C",
+        "text": "looked/found"
+      },
+      {
+        "key": "D",
+        "text": "was looking/was finding"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 11,
+    "pageId": "g1",
+    "topic": "Quá khứ đơn / tiếp diễn",
+    "stem": "“We're moving house tomorrow.'-‘Really? I ______ you with the furniture",
+    "options": [
+      {
+        "key": "A",
+        "text": "am going to help"
+      },
+      {
+        "key": "B",
+        "text": "help"
+      },
+      {
+        "key": "C",
+        "text": "will help"
+      },
+      {
+        "key": "D",
+        "text": "am helping"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "number": 12,
+    "pageId": "g1",
+    "topic": "Quá khứ đơn / tiếp diễn",
+    "stem": "Jenny and her parents ______ to Florida for their next holiday-they already booked the tickets",
+    "options": [
+      {
+        "key": "A",
+        "text": "are going to travel B. travel"
+      },
+      {
+        "key": "C",
+        "text": "will travel"
+      },
+      {
+        "key": "D",
+        "text": "may travel"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 13,
+    "pageId": "g1",
+    "topic": "Quá khứ đơn / tiếp diễn",
+    "stem": "“Oh, no! It's raining and I must go to the shop.\"-\"No problem. I",
+    "options": [
+      {
+        "key": "A",
+        "text": "lend"
+      },
+      {
+        "key": "B",
+        "text": "am going tolend"
+      },
+      {
+        "key": "C",
+        "text": "maylend"
+      },
+      {
+        "key": "D",
+        "text": "will lend"
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "number": 14,
+    "pageId": "g1",
+    "topic": "Quá khứ đơn / tiếp diễn",
+    "stem": "Our class ______ a picnic at Huon g Pagoda this Sunday. Wehave planned for everything",
+    "options": [
+      {
+        "key": "A",
+        "text": "am having"
+      },
+      {
+        "key": "B",
+        "text": "will have"
+      },
+      {
+        "key": "C",
+        "text": "is going to have"
+      },
+      {
+        "key": "D",
+        "text": "Have"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "number": 15,
+    "pageId": "g1",
+    "topic": "Quá khứ đơn / tiếp diễn",
+    "stem": "“I haven't got enough money to pay for my ticket.\"-“It's OK. I ______ you some.\"",
+    "options": [
+      {
+        "key": "A",
+        "text": "will lend"
+      },
+      {
+        "key": "B",
+        "text": "lend"
+      },
+      {
+        "key": "C",
+        "text": "am going tolend"
+      },
+      {
+        "key": "D",
+        "text": "am lending"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 16,
+    "pageId": "g1",
+    "topic": "Quá khứ đơn / tiếp diễn",
+    "stem": "Look at those fierce dogs! They are running wildly. They ______ those cats by the wall",
+    "options": [
+      {
+        "key": "A",
+        "text": "attack"
+      },
+      {
+        "key": "B",
+        "text": "attacked"
+      },
+      {
+        "key": "C",
+        "text": "will attack"
+      },
+      {
+        "key": "D",
+        "text": "are going to attack"
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "number": 17,
+    "pageId": "g1",
+    "topic": "Quá khứ đơn / tiếp diễn",
+    "stem": "I ______ football with Sam at 1P.M. tomorrow.",
+    "options": [
+      {
+        "key": "A",
+        "text": "play"
+      },
+      {
+        "key": "B",
+        "text": "am going to play"
+      },
+      {
+        "key": "C",
+        "text": "will play"
+      },
+      {
+        "key": "D",
+        "text": "am playing"
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "number": 18,
+    "pageId": "g1",
+    "topic": "Quá khứ đơn / tiếp diễn",
+    "stem": "My dad ______ me and my friends to my favourite restaurant for my birthday.",
+    "options": [
+      {
+        "key": "A",
+        "text": "take"
+      },
+      {
+        "key": "B",
+        "text": "is going to take"
+      },
+      {
+        "key": "C",
+        "text": "will take"
+      },
+      {
+        "key": "D",
+        "text": "is taking"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "number": 19,
+    "pageId": "g1",
+    "topic": "Quá khứ đơn / tiếp diễn",
+    "stem": "We don't expect George ______ to the party.",
+    "options": [
+      {
+        "key": "A",
+        "text": "come"
+      },
+      {
+        "key": "B",
+        "text": "is going to come"
+      },
+      {
+        "key": "C",
+        "text": "will come"
+      },
+      {
+        "key": "D",
+        "text": "is coming"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "number": 20,
+    "pageId": "g1",
+    "topic": "Quá khứ đơn / tiếp diễn",
+    "stem": "I promise you ______ this restaurant",
+    "options": [
+      {
+        "key": "A",
+        "text": "will love"
+      },
+      {
+        "key": "B",
+        "text": "love"
+      },
+      {
+        "key": "C",
+        "text": "are loving"
+      },
+      {
+        "key": "D",
+        "text": "are going to love"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 21,
+    "pageId": "g1",
+    "topic": "Quá khứ đơn / tiếp diễn",
+    "stem": "Jack hid in the ______ box",
+    "options": [
+      {
+        "key": "A",
+        "text": "big brown square B. brown square big"
+      },
+      {
+        "key": "C",
+        "text": "big square brown d. square big brown"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 22,
+    "pageId": "g1",
+    "topic": "Quá khứ đơn / tiếp diễn",
+    "stem": "She is wearing a/an ______ ring",
+    "options": [
+      {
+        "key": "A",
+        "text": "diamond expensive big"
+      },
+      {
+        "key": "B",
+        "text": "big expensive diamond"
+      },
+      {
+        "key": "C",
+        "text": "expensive big diamond"
+      },
+      {
+        "key": "D",
+        "text": "big expensive diamond"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "number": 23,
+    "pageId": "g1",
+    "topic": "Quá khứ đơn / tiếp diễn",
+    "stem": "This is a ______ movie",
+    "options": [
+      {
+        "key": "A",
+        "text": "new Italian wonderful"
+      },
+      {
+        "key": "B",
+        "text": "wonderful Italian new"
+      },
+      {
+        "key": "C",
+        "text": "wonderful new Italian"
+      },
+      {
+        "key": "D",
+        "text": "new wonderful Italian"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "number": 24,
+    "pageId": "g1",
+    "topic": "Quá khứ đơn / tiếp diễn",
+    "stem": "She is a ______ supermodel",
+    "options": [
+      {
+        "key": "A",
+        "text": "beautiful slim Brazilian"
+      },
+      {
+        "key": "B",
+        "text": "Brazilian beautiful slim"
+      },
+      {
+        "key": "C",
+        "text": "slim Brazilian beautiful"
+      },
+      {
+        "key": "D",
+        "text": "slim beautiful Brazilian"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 25,
+    "pageId": "g1",
+    "topic": "Quá khứ đơn / tiếp diễn",
+    "stem": "Tom Cruise is a very ______ actor",
+    "options": [
+      {
+        "key": "A",
+        "text": "film handsome American"
+      },
+      {
+        "key": "B",
+        "text": "handsome American film"
+      },
+      {
+        "key": "C",
+        "text": "American handsome film"
+      },
+      {
+        "key": "D",
+        "text": "film American handsome"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "number": 26,
+    "pageId": "g2",
+    "topic": "Tính từ, trường học và thể thao",
+    "stem": "It's in the ______ container",
+    "options": [
+      {
+        "key": "A",
+        "text": "large blue metal"
+      },
+      {
+        "key": "B",
+        "text": "blue large metal"
+      },
+      {
+        "key": "C",
+        "text": "blue metal large"
+      },
+      {
+        "key": "D",
+        "text": "blue mental large"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 27,
+    "pageId": "g2",
+    "topic": "Tính từ, trường học và thể thao",
+    "stem": "John has bought a ______ knife",
+    "options": [
+      {
+        "key": "A",
+        "text": "carving steel new"
+      },
+      {
+        "key": "B",
+        "text": "new steel carving"
+      },
+      {
+        "key": "C",
+        "text": "steel new carving"
+      },
+      {
+        "key": "D",
+        "text": "new carving steel"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "number": 28,
+    "pageId": "g2",
+    "topic": "Tính từ, trường học và thể thao",
+    "stem": "His family has bought a ______ boat",
+    "options": [
+      {
+        "key": "A",
+        "text": "blue beautiful sailing"
+      },
+      {
+        "key": "B",
+        "text": "beautiful blue sailing"
+      },
+      {
+        "key": "C",
+        "text": "sailing beautiful blue"
+      },
+      {
+        "key": "D",
+        "text": "blue sailing beautiful"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "number": 29,
+    "pageId": "g2",
+    "topic": "Tính từ, trường học và thể thao",
+    "stem": "He was wearing a/an ______ shirt",
+    "options": [
+      {
+        "key": "A",
+        "text": "dirty old cotton"
+      },
+      {
+        "key": "B",
+        "text": "cotton old dirty"
+      },
+      {
+        "key": "C",
+        "text": "old dirty cotton"
+      },
+      {
+        "key": "D",
+        "text": "old cotton dirty"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 30,
+    "pageId": "g2",
+    "topic": "Tính từ, trường học và thể thao",
+    "stem": "He sat behind a ______ desk",
+    "options": [
+      {
+        "key": "A",
+        "text": "big wooden brown B. big brown wooden C. wooden big brown D. brown big wooden"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "number": 31,
+    "pageId": "g2",
+    "topic": "Tính từ, trường học và thể thao",
+    "stem": "At university, you can miss some classes, you don't have to ______ every class",
+    "options": [
+      {
+        "key": "A",
+        "text": "go"
+      },
+      {
+        "key": "B",
+        "text": "pass"
+      },
+      {
+        "key": "D",
+        "text": "attend"
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "number": 32,
+    "pageId": "g2",
+    "topic": "Tính từ, trường học và thể thao",
+    "stem": "You mayfeel nervous if you ______ on stage for the first time",
+    "options": [
+      {
+        "key": "A",
+        "text": "perform on stage"
+      },
+      {
+        "key": "B",
+        "text": "pass the exams"
+      },
+      {
+        "key": "C",
+        "text": "wear a uniform"
+      },
+      {
+        "key": "D",
+        "text": "work hark"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 33,
+    "pageId": "g2",
+    "topic": "Tính từ, trường học và thể thao",
+    "stem": "She never ______ late for school. She's always on time plays",
+    "options": [
+      {
+        "key": "A",
+        "text": "goes"
+      },
+      {
+        "key": "B",
+        "text": "arrives"
+      },
+      {
+        "key": "C",
+        "text": "gets"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "number": 34,
+    "pageId": "g2",
+    "topic": "Tính từ, trường học và thể thao",
+    "stem": "Schoolchildren are fond of ______ every year",
+    "options": [
+      {
+        "key": "A",
+        "text": "going on school trips"
+      },
+      {
+        "key": "B",
+        "text": "passing the exams"
+      },
+      {
+        "key": "C",
+        "text": "handing in homework"
+      },
+      {
+        "key": "D",
+        "text": "arriving late for school"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 35,
+    "pageId": "g2",
+    "topic": "Tính từ, trường học và thể thao",
+    "stem": "Some people prefer to ______ at work rather than have lunch at a restaurant or canteen",
+    "options": [
+      {
+        "key": "A",
+        "text": "eat packed lunch"
+      },
+      {
+        "key": "B",
+        "text": "wear a uniform"
+      },
+      {
+        "key": "C",
+        "text": "work hard"
+      },
+      {
+        "key": "D",
+        "text": "join an after-school club"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 36,
+    "pageId": "g2",
+    "topic": "Tính từ, trường học và thể thao",
+    "stem": "James works very hard at school so he usually ______ in exams",
+    "options": [
+      {
+        "key": "A",
+        "text": "gets bad grades"
+      },
+      {
+        "key": "B",
+        "text": "gets good grade"
+      },
+      {
+        "key": "C",
+        "text": "performs on stage"
+      },
+      {
+        "key": "D",
+        "text": "hands in homework"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "number": 37,
+    "pageId": "g2",
+    "topic": "Tính từ, trường học và thể thao",
+    "stem": "My son ______ to an after-school English club every Tuesday",
+    "options": [
+      {
+        "key": "A",
+        "text": "goes"
+      },
+      {
+        "key": "B",
+        "text": "arrives"
+      },
+      {
+        "key": "C",
+        "text": "attends"
+      },
+      {
+        "key": "D",
+        "text": "plays"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 38,
+    "pageId": "g2",
+    "topic": "Tính từ, trường học và thể thao",
+    "stem": "Ithink that ______ school uniform de personalizes children",
+    "options": [
+      {
+        "key": "A",
+        "text": "eating"
+      },
+      {
+        "key": "B",
+        "text": "working"
+      },
+      {
+        "key": "C",
+        "text": "wearing"
+      },
+      {
+        "key": "D",
+        "text": "passing"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "number": 39,
+    "pageId": "g2",
+    "topic": "Tính từ, trường học và thể thao",
+    "stem": "My brother goes to drama school so he often ______ on stage",
+    "options": [
+      {
+        "key": "A",
+        "text": "performs"
+      },
+      {
+        "key": "B",
+        "text": "arrives"
+      },
+      {
+        "key": "C",
+        "text": "goes"
+      },
+      {
+        "key": "D",
+        "text": "plays"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 40,
+    "pageId": "g2",
+    "topic": "Tính từ, trường học và thể thao",
+    "stem": "The children are really excited because they're ______ tomorrow",
+    "options": [
+      {
+        "key": "A",
+        "text": "eating a packed lunch"
+      },
+      {
+        "key": "B",
+        "text": "working hard"
+      },
+      {
+        "key": "C",
+        "text": "going on a school trip"
+      },
+      {
+        "key": "D",
+        "text": "arriving late for school"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "number": 41,
+    "pageId": "g2",
+    "topic": "Tính từ, trường học và thể thao",
+    "stem": "Mark doesn't have any ______ He doesn't care if he wins or loses",
+    "options": [
+      {
+        "key": "A",
+        "text": "ambition"
+      },
+      {
+        "key": "B",
+        "text": "talent"
+      },
+      {
+        "key": "C",
+        "text": "luck"
+      },
+      {
+        "key": "D",
+        "text": "race"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 42,
+    "pageId": "g2",
+    "topic": "Tính từ, trường học và thể thao",
+    "stem": "It's important to ______ your disappointment when you lose a match",
+    "options": [
+      {
+        "key": "A",
+        "text": "fail"
+      },
+      {
+        "key": "B",
+        "text": "hide"
+      },
+      {
+        "key": "C",
+        "text": "lose"
+      },
+      {
+        "key": "D",
+        "text": "show"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "number": 43,
+    "pageId": "g2",
+    "topic": "Tính từ, trường học và thể thao",
+    "stem": "Very few people are lucky enough to ______ all their dreams",
+    "options": [
+      {
+        "key": "A",
+        "text": "succeed"
+      },
+      {
+        "key": "B",
+        "text": "win"
+      },
+      {
+        "key": "C",
+        "text": "achieve"
+      },
+      {
+        "key": "D",
+        "text": "lose"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "number": 44,
+    "pageId": "g2",
+    "topic": "Tính từ, trường học và thể thao",
+    "stem": "The last time we ______ the championship was in 2001",
+    "options": [
+      {
+        "key": "A",
+        "text": "beat"
+      },
+      {
+        "key": "B",
+        "text": "won"
+      },
+      {
+        "key": "C",
+        "text": "scored"
+      },
+      {
+        "key": "D",
+        "text": "beat"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "number": 45,
+    "pageId": "g2",
+    "topic": "Tính từ, trường học và thể thao",
+    "stem": "I don't mind being ______ if I feel the other team deserves to win",
+    "options": [
+      {
+        "key": "A",
+        "text": "defeated"
+      },
+      {
+        "key": "B",
+        "text": "scored"
+      },
+      {
+        "key": "C",
+        "text": "failed"
+      },
+      {
+        "key": "D",
+        "text": "lost"
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "number": 46,
+    "pageId": "g2",
+    "topic": "Tính từ, trường học và thể thao",
+    "stem": "Some footballers are rude and don't show the other team any",
+    "options": [
+      {
+        "key": "A",
+        "text": "respect"
+      },
+      {
+        "key": "B",
+        "text": "attitude"
+      },
+      {
+        "key": "C",
+        "text": "disappointment"
+      },
+      {
+        "key": "D",
+        "text": "achievement"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 47,
+    "pageId": "g2",
+    "topic": "Tính từ, trường học và thể thao",
+    "stem": "He had finally achieved ______ He won the gold medal in the Olympics",
+    "options": [
+      {
+        "key": "A",
+        "text": "success"
+      },
+      {
+        "key": "B",
+        "text": "defeat"
+      },
+      {
+        "key": "C",
+        "text": "disappointment"
+      },
+      {
+        "key": "D",
+        "text": "luck"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 48,
+    "pageId": "g2",
+    "topic": "Tính từ, trường học và thể thao",
+    "stem": "He ______ in having a career in sports ______",
+    "options": [
+      {
+        "key": "A",
+        "text": "achieved"
+      },
+      {
+        "key": "B",
+        "text": "won"
+      },
+      {
+        "key": "C",
+        "text": "beat"
+      },
+      {
+        "key": "D",
+        "text": "succeeded"
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "number": 49,
+    "pageId": "g2",
+    "topic": "Tính từ, trường học và thể thao",
+    "stem": "This is his latest attempt to beat the world ______",
+    "options": [
+      {
+        "key": "A",
+        "text": "record"
+      },
+      {
+        "key": "B",
+        "text": "opponent"
+      },
+      {
+        "key": "C",
+        "text": "point"
+      },
+      {
+        "key": "D",
+        "text": "goal"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 50,
+    "pageId": "g2",
+    "topic": "Tính từ, trường học và thể thao",
+    "stem": "You have to be highly ______ to do well in sport these days",
+    "options": [
+      {
+        "key": "A",
+        "text": "competitive"
+      },
+      {
+        "key": "B",
+        "text": "compete"
+      },
+      {
+        "key": "C",
+        "text": "competition"
+      },
+      {
+        "key": "D",
+        "text": "competitor"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 51,
+    "pageId": "g3",
+    "topic": "Quần áo, nhà cửa, giao thông",
+    "stem": "Teenagers usually try tobuy the most ______ clothes they can afford with their pocket money",
+    "options": [
+      {
+        "key": "A",
+        "text": "fashionable"
+      },
+      {
+        "key": "B",
+        "text": "casual"
+      },
+      {
+        "key": "D",
+        "text": "traditional"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 52,
+    "pageId": "g3",
+    "topic": "Quần áo, nhà cửa, giao thông",
+    "stem": "Good quality shoes are usually made of ______",
+    "options": [
+      {
+        "key": "A",
+        "text": "cotton"
+      },
+      {
+        "key": "B",
+        "text": "silk"
+      },
+      {
+        "key": "C",
+        "text": "wool"
+      },
+      {
+        "key": "D",
+        "text": "leather"
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "number": 53,
+    "pageId": "g3",
+    "topic": "Quần áo, nhà cửa, giao thông",
+    "stem": "are thebest things to wear on your feet when you go running",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sandals"
+      },
+      {
+        "key": "B",
+        "text": "Boots"
+      },
+      {
+        "key": "C",
+        "text": "High-heeled shoes D. Trainers"
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "number": 54,
+    "pageId": "g3",
+    "topic": "Quần áo, nhà cửa, giao thông",
+    "stem": "Mark's father chose a ______ tie for his meeting rather than one with spots or stripes or flowers",
+    "options": [
+      {
+        "key": "A",
+        "text": "colourful"
+      },
+      {
+        "key": "B",
+        "text": "plain"
+      },
+      {
+        "key": "C",
+        "text": "silk"
+      },
+      {
+        "key": "D",
+        "text": "wool"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "number": 55,
+    "pageId": "g3",
+    "topic": "Quần áo, nhà cửa, giao thông",
+    "stem": "It's good to wear ______ to keep your hands warm if you're cycling in winter",
+    "options": [
+      {
+        "key": "A",
+        "text": "gloves"
+      },
+      {
+        "key": "B",
+        "text": "socks"
+      },
+      {
+        "key": "C",
+        "text": "hats"
+      },
+      {
+        "key": "D",
+        "text": "belts"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 56,
+    "pageId": "g3",
+    "topic": "Quần áo, nhà cửa, giao thông",
+    "stem": "Many men have to wear a ______ for work so that they look smart",
+    "options": [
+      {
+        "key": "A",
+        "text": "T-shirt"
+      },
+      {
+        "key": "B",
+        "text": "suit"
+      },
+      {
+        "key": "C",
+        "text": "jeans"
+      },
+      {
+        "key": "D",
+        "text": "shorts"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "number": 57,
+    "pageId": "g3",
+    "topic": "Quần áo, nhà cửa, giao thông",
+    "stem": "Sarah loves ______ so she bought a brace let to match the necklace she's got",
+    "options": [
+      {
+        "key": "A",
+        "text": "rings"
+      },
+      {
+        "key": "B",
+        "text": "earrings"
+      },
+      {
+        "key": "C",
+        "text": "jewellery"
+      },
+      {
+        "key": "D",
+        "text": "belts"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "number": 58,
+    "pageId": "g3",
+    "topic": "Quần áo, nhà cửa, giao thông",
+    "stem": "In a jeweller's shop, you can buy expensive rings made of gold or",
+    "options": [
+      {
+        "key": "A",
+        "text": "plastic"
+      },
+      {
+        "key": "B",
+        "text": "cotton"
+      },
+      {
+        "key": "C",
+        "text": "leather"
+      },
+      {
+        "key": "D",
+        "text": "silver"
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "number": 59,
+    "pageId": "g3",
+    "topic": "Quần áo, nhà cửa, giao thông",
+    "stem": "Sarah says we can just wear ______ clothes tera ry, like T shirts and js",
+    "options": [
+      {
+        "key": "A",
+        "text": "formal"
+      },
+      {
+        "key": "B",
+        "text": "smart"
+      },
+      {
+        "key": "C",
+        "text": "casual"
+      },
+      {
+        "key": "D",
+        "text": "fashionable"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "number": 60,
+    "pageId": "g3",
+    "topic": "Quần áo, nhà cửa, giao thông",
+    "stem": "It's important to choose the correct ______ when you buy clothes, so that they fit properly",
+    "options": [
+      {
+        "key": "A",
+        "text": "fashion"
+      },
+      {
+        "key": "B",
+        "text": "style"
+      },
+      {
+        "key": "C",
+        "text": "size"
+      },
+      {
+        "key": "D",
+        "text": "price"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "number": 61,
+    "pageId": "g3",
+    "topic": "Quần áo, nhà cửa, giao thông",
+    "stem": "Most teenagers enjoy living somewhere ______ where there are lots of things to do",
+    "options": [
+      {
+        "key": "A",
+        "text": "quiet"
+      },
+      {
+        "key": "B",
+        "text": "lively"
+      },
+      {
+        "key": "C",
+        "text": "crowded"
+      },
+      {
+        "key": "D",
+        "text": "traditional"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "number": 62,
+    "pageId": "g3",
+    "topic": "Quần áo, nhà cửa, giao thông",
+    "stem": "The people in this street are very ______ - they enjoy meeting their neighbours",
+    "options": [
+      {
+        "key": "A",
+        "text": "quiet"
+      },
+      {
+        "key": "B",
+        "text": "kind"
+      },
+      {
+        "key": "C",
+        "text": "convenient"
+      },
+      {
+        "key": "D",
+        "text": "sociable"
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "number": 63,
+    "pageId": "g3",
+    "topic": "Quần áo, nhà cửa, giao thông",
+    "stem": "It's nice to sit in the park sometimes and listen to the birds singing - it's so",
+    "options": [
+      {
+        "key": "A",
+        "text": "peaceful"
+      },
+      {
+        "key": "B",
+        "text": "lively"
+      },
+      {
+        "key": "C",
+        "text": "crowded"
+      },
+      {
+        "key": "D",
+        "text": "smart"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 64,
+    "pageId": "g3",
+    "topic": "Quần áo, nhà cửa, giao thông",
+    "stem": "Jack's grandparents are both in their 80s now - they're quite",
+    "options": [
+      {
+        "key": "A",
+        "text": "young"
+      },
+      {
+        "key": "B",
+        "text": "elderly"
+      },
+      {
+        "key": "C",
+        "text": "quiet"
+      },
+      {
+        "key": "D",
+        "text": "smart"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "number": 65,
+    "pageId": "g3",
+    "topic": "Quần áo, nhà cửa, giao thông",
+    "stem": "The bus stop is just near our house, so the bus is quite a ______ way to get into town",
+    "options": [
+      {
+        "key": "A",
+        "text": "difficult"
+      },
+      {
+        "key": "B",
+        "text": "convenient"
+      },
+      {
+        "key": "C",
+        "text": "historical"
+      },
+      {
+        "key": "D",
+        "text": "cultural"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "number": 66,
+    "pageId": "g3",
+    "topic": "Quần áo, nhà cửa, giao thông",
+    "stem": "Living in the countryside is very ______ and healthy",
+    "options": [
+      {
+        "key": "A",
+        "text": "crowded"
+      },
+      {
+        "key": "B",
+        "text": "peaceful"
+      },
+      {
+        "key": "C",
+        "text": "exciting"
+      },
+      {
+        "key": "D",
+        "text": "historical"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "number": 67,
+    "pageId": "g3",
+    "topic": "Quần áo, nhà cửa, giao thông",
+    "stem": "The museum in the town is so ______ that it's impossible to see everything in one day",
+    "options": [
+      {
+        "key": "A",
+        "text": "huge"
+      },
+      {
+        "key": "B",
+        "text": "small"
+      },
+      {
+        "key": "C",
+        "text": "cosy"
+      },
+      {
+        "key": "D",
+        "text": "quiet"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 68,
+    "pageId": "g3",
+    "topic": "Quần áo, nhà cửa, giao thông",
+    "stem": "Jenna's holiday home is ______, so it's easy to get to the beach",
+    "options": [
+      {
+        "key": "A",
+        "text": "in the city"
+      },
+      {
+        "key": "B",
+        "text": "in the countryside C. in the mountains"
+      },
+      {
+        "key": "D",
+        "text": "on the coast"
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "number": 69,
+    "pageId": "g3",
+    "topic": "Quần áo, nhà cửa, giao thông",
+    "stem": "Karen lives in ______ on the fourth floor of a very tall block",
+    "options": [
+      {
+        "key": "A",
+        "text": "a house"
+      },
+      {
+        "key": "B",
+        "text": "an apartment"
+      },
+      {
+        "key": "C",
+        "text": "a home"
+      },
+      {
+        "key": "D",
+        "text": "a street"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "number": 70,
+    "pageId": "g3",
+    "topic": "Quần áo, nhà cửa, giao thông",
+    "stem": "A ______ is a very large place where lots of people live and work",
+    "options": [
+      {
+        "key": "A",
+        "text": "city"
+      },
+      {
+        "key": "B",
+        "text": "countryside"
+      },
+      {
+        "key": "C",
+        "text": "village"
+      },
+      {
+        "key": "D",
+        "text": "forest"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 71,
+    "pageId": "g3",
+    "topic": "Quần áo, nhà cửa, giao thông",
+    "stem": "Drivers have to stop when the ______ turnred",
+    "options": [
+      {
+        "key": "A",
+        "text": "traffic jam"
+      },
+      {
+        "key": "B",
+        "text": "traffic lights"
+      },
+      {
+        "key": "C",
+        "text": "speed limit"
+      },
+      {
+        "key": "D",
+        "text": "motorway"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 72,
+    "pageId": "g3",
+    "topic": "Quần áo, nhà cửa, giao thông",
+    "stem": "Passengers have to wait on the ______ for their train to come",
+    "options": [
+      {
+        "key": "A",
+        "text": "airport"
+      },
+      {
+        "key": "B",
+        "text": "habour"
+      },
+      {
+        "key": "C",
+        "text": "platform"
+      },
+      {
+        "key": "D",
+        "text": "departure gate"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "number": 73,
+    "pageId": "g3",
+    "topic": "Quần áo, nhà cửa, giao thông",
+    "stem": "The ______ is the person who flies the plane when you go on holiday",
+    "options": [
+      {
+        "key": "A",
+        "text": "flight attendant"
+      },
+      {
+        "key": "B",
+        "text": "security guard"
+      },
+      {
+        "key": "C",
+        "text": "pilot"
+      },
+      {
+        "key": "D",
+        "text": "driver"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "number": 74,
+    "pageId": "g3",
+    "topic": "Quần áo, nhà cửa, giao thông",
+    "stem": "Thebus was so ______ that there wasn't any room for more passengers",
+    "options": [
+      {
+        "key": "A",
+        "text": "crowded"
+      },
+      {
+        "key": "B",
+        "text": "seasick"
+      },
+      {
+        "key": "C",
+        "text": "carsick"
+      },
+      {
+        "key": "D",
+        "text": "rough"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 75,
+    "pageId": "g3",
+    "topic": "Quần áo, nhà cửa, giao thông",
+    "stem": "Vehicles can drive faster ona ______ than on other roads",
+    "options": [
+      {
+        "key": "A",
+        "text": "roundabout"
+      },
+      {
+        "key": "B",
+        "text": "seat belt"
+      },
+      {
+        "key": "C",
+        "text": "motorway"
+      },
+      {
+        "key": "D",
+        "text": "habour"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "number": 76,
+    "pageId": "g3",
+    "topic": "Quần áo, nhà cửa, giao thông",
+    "stem": "When you arrive at an airport for a flight, you have to ______ in first",
+    "options": [
+      {
+        "key": "A",
+        "text": "land"
+      },
+      {
+        "key": "B",
+        "text": "take off"
+      },
+      {
+        "key": "C",
+        "text": "wait"
+      },
+      {
+        "key": "D",
+        "text": "check"
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "number": 77,
+    "pageId": "g3",
+    "topic": "Quần áo, nhà cửa, giao thông",
+    "stem": "Don't forget to collect your ______ when you get off a plane",
+    "options": [
+      {
+        "key": "A",
+        "text": "boarding card"
+      },
+      {
+        "key": "B",
+        "text": "luggage"
+      },
+      {
+        "key": "C",
+        "text": "station"
+      },
+      {
+        "key": "D",
+        "text": "security"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "number": 78,
+    "pageId": "g3",
+    "topic": "Quần áo, nhà cửa, giao thông",
+    "stem": "Travelling byboat canbe unpleasant if there arebig ______",
+    "options": [
+      {
+        "key": "A",
+        "text": "traffic jams"
+      },
+      {
+        "key": "B",
+        "text": "waves"
+      },
+      {
+        "key": "C",
+        "text": "speed limits"
+      },
+      {
+        "key": "D",
+        "text": "traffic lights"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "number": 79,
+    "pageId": "g4",
+    "topic": "Phrasal verb và word formation",
+    "stem": "You can hire aboat if you walk down to the ______",
+    "options": [
+      {
+        "key": "A",
+        "text": "roundabout"
+      },
+      {
+        "key": "B",
+        "text": "airport"
+      },
+      {
+        "key": "D",
+        "text": "habour"
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "number": 80,
+    "pageId": "g4",
+    "topic": "Phrasal verb và word formation",
+    "stem": "When everyone leaves work in the evening, there's often a ______ in town",
+    "options": [
+      {
+        "key": "A",
+        "text": "traffc jams"
+      },
+      {
+        "key": "B",
+        "text": "traffic lights"
+      },
+      {
+        "key": "C",
+        "text": "platforms"
+      },
+      {
+        "key": "D",
+        "text": "moto ways"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 81,
+    "pageId": "g4",
+    "topic": "Phrasal verb và word formation",
+    "stem": "You must ______ your own ability to make the right decision",
+    "options": [
+      {
+        "key": "A",
+        "text": "hand in"
+      },
+      {
+        "key": "B",
+        "text": "get in"
+      },
+      {
+        "key": "C",
+        "text": "stay in"
+      },
+      {
+        "key": "D",
+        "text": "believe in"
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "number": 82,
+    "pageId": "g4",
+    "topic": "Phrasal verb và word formation",
+    "stem": "We'll get in trouble if we don't ______ our homework on time",
+    "options": [
+      {
+        "key": "A",
+        "text": "hand in"
+      },
+      {
+        "key": "B",
+        "text": "get in"
+      },
+      {
+        "key": "C",
+        "text": "stay in"
+      },
+      {
+        "key": "D",
+        "text": "believe in"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 83,
+    "pageId": "g4",
+    "topic": "Phrasal verb và word formation",
+    "stem": "At the party we ______ all the games ______",
+    "options": [
+      {
+        "key": "A",
+        "text": "handed in"
+      },
+      {
+        "key": "B",
+        "text": "got in"
+      },
+      {
+        "key": "C",
+        "text": "joined in"
+      },
+      {
+        "key": "D",
+        "text": "believed in"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "number": 84,
+    "pageId": "g4",
+    "topic": "Phrasal verb và word formation",
+    "stem": "On Fridays all the family usually ______",
+    "options": [
+      {
+        "key": "A",
+        "text": "hand in"
+      },
+      {
+        "key": "B",
+        "text": "get in"
+      },
+      {
+        "key": "C",
+        "text": "stay in"
+      },
+      {
+        "key": "D",
+        "text": "believe in"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "number": 85,
+    "pageId": "g4",
+    "topic": "Phrasal verb và word formation",
+    "stem": "I forgot my key so when I got home I couldn't ______",
+    "options": [
+      {
+        "key": "A",
+        "text": "hand in"
+      },
+      {
+        "key": "B",
+        "text": "get in"
+      },
+      {
+        "key": "C",
+        "text": "stay in"
+      },
+      {
+        "key": "D",
+        "text": "believe in"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "number": 86,
+    "pageId": "g4",
+    "topic": "Phrasal verb và word formation",
+    "stem": "I think it's nice to go ______ to the same place on holiday each year",
+    "options": [
+      {
+        "key": "A",
+        "text": "on"
+      },
+      {
+        "key": "B",
+        "text": "up"
+      },
+      {
+        "key": "C",
+        "text": "back"
+      },
+      {
+        "key": "D",
+        "text": "for"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "number": 87,
+    "pageId": "g4",
+    "topic": "Phrasal verb và word formation",
+    "stem": "Her teacher was surprised when she decided not to go ______ with her singing lessons",
+    "options": [
+      {
+        "key": "A",
+        "text": "on"
+      },
+      {
+        "key": "B",
+        "text": "up"
+      },
+      {
+        "key": "C",
+        "text": "back"
+      },
+      {
+        "key": "D",
+        "text": "for"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 88,
+    "pageId": "g4",
+    "topic": "Phrasal verb và word formation",
+    "stem": "My sister always goes ______ chocolate cake. My favourite is lemon",
+    "options": [
+      {
+        "key": "A",
+        "text": "on"
+      },
+      {
+        "key": "B",
+        "text": "up"
+      },
+      {
+        "key": "C",
+        "text": "back"
+      },
+      {
+        "key": "D",
+        "text": "for"
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "number": 89,
+    "pageId": "g4",
+    "topic": "Phrasal verb và word formation",
+    "stem": "The price of everything is going ______ every day",
+    "options": [
+      {
+        "key": "A",
+        "text": "on"
+      },
+      {
+        "key": "B",
+        "text": "up"
+      },
+      {
+        "key": "C",
+        "text": "back"
+      },
+      {
+        "key": "D",
+        "text": "for"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "number": 90,
+    "pageId": "g4",
+    "topic": "Phrasal verb và word formation",
+    "stem": "This morning I got up and then went ______ to bed because I felt sick",
+    "options": [
+      {
+        "key": "A",
+        "text": "on"
+      },
+      {
+        "key": "B",
+        "text": "up"
+      },
+      {
+        "key": "C",
+        "text": "back"
+      },
+      {
+        "key": "D",
+        "text": "for"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "number": 91,
+    "pageId": "g4",
+    "topic": "Phrasal verb và word formation",
+    "stem": "I need to ______ some lunch before Igo into town. I'm hungry！",
+    "options": [
+      {
+        "key": "A",
+        "text": "have"
+      },
+      {
+        "key": "B",
+        "text": "do"
+      },
+      {
+        "key": "C",
+        "text": "make"
+      },
+      {
+        "key": "D",
+        "text": "go"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 92,
+    "pageId": "g4",
+    "topic": "Phrasal verb và word formation",
+    "stem": "Itwas late when the film finished, sowe all ______ home",
+    "options": [
+      {
+        "key": "A",
+        "text": "had"
+      },
+      {
+        "key": "B",
+        "text": "did"
+      },
+      {
+        "key": "C",
+        "text": "made"
+      },
+      {
+        "key": "D",
+        "text": "went"
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "number": 93,
+    "pageId": "g4",
+    "topic": "Phrasal verb và word formation",
+    "stem": "Simon ______ very well in the test yesterday, so his teacher wasn't very pleased",
+    "options": [
+      {
+        "key": "A",
+        "text": "had"
+      },
+      {
+        "key": "B",
+        "text": "did"
+      },
+      {
+        "key": "C",
+        "text": "made"
+      },
+      {
+        "key": "D",
+        "text": "went"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "number": 94,
+    "pageId": "g4",
+    "topic": "Phrasal verb và word formation",
+    "stem": "Sophie's mobile was broken so she couldn't ______ her phone call",
+    "options": [
+      {
+        "key": "A",
+        "text": "have"
+      },
+      {
+        "key": "B",
+        "text": "do"
+      },
+      {
+        "key": "C",
+        "text": "make"
+      },
+      {
+        "key": "D",
+        "text": "go"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "number": 95,
+    "pageId": "g4",
+    "topic": "Phrasal verb và word formation",
+    "stem": "1still can't ______ up my mind which T-shirt to bury-blue or green?",
+    "options": [
+      {
+        "key": "A",
+        "text": "have"
+      },
+      {
+        "key": "B",
+        "text": "do"
+      },
+      {
+        "key": "C",
+        "text": "make"
+      },
+      {
+        "key": "D",
+        "text": "go"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "number": 96,
+    "pageId": "g4",
+    "topic": "Phrasal verb và word formation",
+    "stem": "I'm tired-I think I'll ______ straight to bed when I get home",
+    "options": [
+      {
+        "key": "A",
+        "text": "have"
+      },
+      {
+        "key": "B",
+        "text": "do"
+      },
+      {
+        "key": "C",
+        "text": "make"
+      },
+      {
+        "key": "D",
+        "text": "go"
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "number": 97,
+    "pageId": "g4",
+    "topic": "Phrasal verb và word formation",
+    "stem": "The end of the film was a real ______",
+    "options": [
+      {
+        "key": "A",
+        "text": "surprise"
+      },
+      {
+        "key": "B",
+        "text": "surprising"
+      },
+      {
+        "key": "C",
+        "text": "surprised"
+      },
+      {
+        "key": "D",
+        "text": "surprises"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "number": 98,
+    "pageId": "g4",
+    "topic": "Phrasal verb và word formation",
+    "stem": "My mum doesn't find science-fiction films ______ at all",
+    "options": [
+      {
+        "key": "A",
+        "text": "interesting"
+      },
+      {
+        "key": "B",
+        "text": "interested"
+      },
+      {
+        "key": "C",
+        "text": "interest"
+      },
+      {
+        "key": "D",
+        "text": "interests"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 99,
+    "pageId": "g4",
+    "topic": "Phrasal verb và word formation",
+    "stem": "I was ______ by the news on the radio ______",
+    "options": [
+      {
+        "key": "A",
+        "text": "surprise"
+      },
+      {
+        "key": "B",
+        "text": "surprising"
+      },
+      {
+        "key": "C",
+        "text": "surprised"
+      },
+      {
+        "key": "D",
+        "text": "surprise"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "number": 100,
+    "pageId": "g4",
+    "topic": "Phrasal verb và word formation",
+    "stem": "I don't find classical music ______",
+    "options": [
+      {
+        "key": "A",
+        "text": "relax"
+      },
+      {
+        "key": "B",
+        "text": "relaxing"
+      },
+      {
+        "key": "C",
+        "text": "relaxed"
+      },
+      {
+        "key": "D",
+        "text": "relaxation"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "number": 111,
+    "pageId": "g4",
+    "topic": "Phrasal verb và word formation",
+    "stem": "Cinema is thebest form of ______",
+    "options": [
+      {
+        "key": "A",
+        "text": "entertainer"
+      },
+      {
+        "key": "B",
+        "text": "entertaining"
+      },
+      {
+        "key": "C",
+        "text": "entertainment"
+      },
+      {
+        "key": "D",
+        "text": "entertain"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "number": 112,
+    "pageId": "g4",
+    "topic": "Phrasal verb và word formation",
+    "stem": "Putting on a concert takes a lot of ______",
+    "options": [
+      {
+        "key": "A",
+        "text": "organized"
+      },
+      {
+        "key": "B",
+        "text": "organization"
+      },
+      {
+        "key": "C",
+        "text": "organizing"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "number": 113,
+    "pageId": "g4",
+    "topic": "Phrasal verb và word formation",
+    "stem": "It was a huge ______ whenI didn't get a part in the play",
+    "options": [
+      {
+        "key": "A",
+        "text": "disappoint"
+      },
+      {
+        "key": "B",
+        "text": "disappointed"
+      },
+      {
+        "key": "C",
+        "text": "disappointing"
+      },
+      {
+        "key": "D",
+        "text": "disappointment"
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "number": 114,
+    "pageId": "g4",
+    "topic": "Phrasal verb và word formation",
+    "stem": "It's important to ______ yourself todo things youfind scary",
+    "options": [
+      {
+        "key": "A",
+        "text": "challenge"
+      },
+      {
+        "key": "B",
+        "text": "challenging"
+      },
+      {
+        "key": "C",
+        "text": "challenger"
+      },
+      {
+        "key": "D",
+        "text": "challenges"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 115,
+    "pageId": "g4",
+    "topic": "Phrasal verb và word formation",
+    "stem": "Performing ina band can beabig ______",
+    "options": [
+      {
+        "key": "A",
+        "text": "worried"
+      },
+      {
+        "key": "B",
+        "text": "worries"
+      },
+      {
+        "key": "C",
+        "text": "worry"
+      },
+      {
+        "key": "D",
+        "text": "worrying"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "number": 116,
+    "pageId": "g4",
+    "topic": "Phrasal verb và word formation",
+    "stem": "The ride wasn't as ______ as I expected ______",
+    "options": [
+      {
+        "key": "A",
+        "text": "excite"
+      },
+      {
+        "key": "B",
+        "text": "exciting"
+      },
+      {
+        "key": "C",
+        "text": "excited"
+      },
+      {
+        "key": "D",
+        "text": "excitement"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "number": 117,
+    "pageId": "g5",
+    "topic": "Word formation",
+    "stem": "My mum finds horror films ______ but my dad hates them",
+    "options": [
+      {
+        "key": "A",
+        "text": "enjoy"
+      },
+      {
+        "key": "B",
+        "text": "enjoyable"
+      },
+      {
+        "key": "C",
+        "text": "enjoyment"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "number": 118,
+    "pageId": "g5",
+    "topic": "Word formation",
+    "stem": "Alot ofyoung people don't feel ______ watching films with their parents",
+    "options": [
+      {
+        "key": "A",
+        "text": "relax"
+      },
+      {
+        "key": "B",
+        "text": "relaxing"
+      },
+      {
+        "key": "C",
+        "text": "relaxed"
+      },
+      {
+        "key": "D",
+        "text": "relaxation"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "number": 119,
+    "pageId": "g5",
+    "topic": "Word formation",
+    "stem": "My teacher says Ineed to be more ______",
+    "options": [
+      {
+        "key": "A",
+        "text": "organized"
+      },
+      {
+        "key": "B",
+        "text": "organization"
+      },
+      {
+        "key": "C",
+        "text": "organizing"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "number": 120,
+    "pageId": "g5",
+    "topic": "Word formation",
+    "stem": "You shouldn't ______ so much. Everything will befine",
+    "options": [
+      {
+        "key": "A",
+        "text": "worried"
+      },
+      {
+        "key": "B",
+        "text": "worries"
+      },
+      {
+        "key": "C",
+        "text": "worry"
+      },
+      {
+        "key": "D",
+        "text": "worrying"
+      }
+    ],
+    "answer": "C"
+  }
+]

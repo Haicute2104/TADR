@@ -1,0 +1,956 @@
+[
+  {
+    "id": "past-perfect-1",
+    "category": "past-perfect",
+    "prompt": "My uncle last painted his house last year.",
+    "answers": [
+      "My uncle hasn't painted his house since last year.",
+      "My uncle has not painted his house since last year.",
+      "My uncle has never painted his house since last year."
+    ],
+    "lead": "My uncle"
+  },
+  {
+    "id": "past-perfect-2",
+    "category": "past-perfect",
+    "prompt": "They last visited me 5 years ago.",
+    "answers": [
+      "They haven't visited me for 5 years.",
+      "They have not visited me for 5 years.",
+      "They have never visited me for 5 years.",
+      "It is 5 years since they visited me.",
+      "It has been 5 years since they last visited me."
+    ],
+    "lead": "They"
+  },
+  {
+    "id": "past-perfect-3",
+    "category": "past-perfect",
+    "prompt": "Mary last took some pictures when she was on holiday last year.",
+    "answers": [
+      "Mary hasn't taken any pictures since she was on holiday last year.",
+      "Mary has not taken any pictures since she was on holiday last year.",
+      "Mary has never taken any pictures since she was on holiday last year."
+    ],
+    "lead": "Mary"
+  },
+  {
+    "id": "past-perfect-4",
+    "category": "past-perfect",
+    "prompt": "My children last ate ice cream last summer.",
+    "answers": [
+      "My children haven't eaten ice-cream since last summer.",
+      "My children haven't eaten ice cream since last summer.",
+      "My children have not eaten ice cream since last summer.",
+      "My children have never eaten ice cream since last summer."
+    ],
+    "lead": "My children"
+  },
+  {
+    "id": "past-perfect-5",
+    "category": "past-perfect",
+    "prompt": "The last time my sister bought some clothes was 9 months ago.",
+    "answers": [
+      "My sister hasn't bought any clothes for 9 months.",
+      "My sister has not bought any clothes for 9 months.",
+      "My sister has never bought any clothes for 9 months.",
+      "It is 9 months since my sister bought any clothes."
+    ],
+    "lead": "My sister"
+  },
+  {
+    "id": "past-perfect-6",
+    "category": "past-perfect",
+    "prompt": "He last wrote to his parents 6 months ago.",
+    "answers": [
+      "He hasn't written to his parents for 6 months.",
+      "He has not written to his parents for 6 months.",
+      "He has never written to his parents for 6 months.",
+      "It is 6 months since he wrote to his parents."
+    ],
+    "lead": "He last"
+  },
+  {
+    "id": "past-perfect-7",
+    "category": "past-perfect",
+    "prompt": "They last had a holiday abroad in 2019.",
+    "answers": [
+      "They haven't had a holiday abroad since 2019.",
+      "They have not had a holiday abroad since 2019.",
+      "They have never had a holiday abroad since 2019."
+    ],
+    "lead": "They"
+  },
+  {
+    "id": "past-perfect-8",
+    "category": "past-perfect",
+    "prompt": "Janet started playing the piano when she was in grade 5.",
+    "answers": [
+      "Janet has played the piano since she was in grade 5.",
+      "Janet has been playing the piano since she was in grade 5."
+    ],
+    "lead": "Janet"
+  },
+  {
+    "id": "past-perfect-9",
+    "category": "past-perfect",
+    "prompt": "These workers began working in that factory in 2001.",
+    "answers": [
+      "These workers have worked in that factory since 2001.",
+      "These workers have been working in that factory since 2001."
+    ],
+    "lead": "These workers"
+  },
+  {
+    "id": "past-perfect-10",
+    "category": "past-perfect",
+    "prompt": "My friends began studying English 15 years ago.",
+    "answers": [
+      "My friends have studied English for 15 years.",
+      "My friends have been studying English for 15 years."
+    ],
+    "lead": "My friends"
+  },
+  {
+    "id": "comparison-11",
+    "category": "comparison",
+    "prompt": "No student in the class is as smart as Bill.",
+    "answers": [
+      "Bill is the smartest student in the class.",
+      "Bill is smarter than any other student in the class.",
+      "Bill is smarter than the other students in the class."
+    ],
+    "lead": "Bill"
+  },
+  {
+    "id": "comparison-12",
+    "category": "comparison",
+    "prompt": "The countryside is more peaceful than the city.",
+    "answers": [
+      "The city isn't as peaceful as the countryside.",
+      "The city is not as peaceful as the countryside.",
+      "The city is less peaceful than the countryside."
+    ],
+    "lead": "Yesterday morning"
+  },
+  {
+    "id": "comparison-13",
+    "category": "comparison",
+    "prompt": "The seats at the front are more expensive than the seats at the back.",
+    "answers": [
+      "The seats at the back aren't as expensive as the seats at the front.",
+      "The seats at the back are not as expensive as the seats at the front.",
+      "The seats at the back are less expensive than the seats at the front."
+    ],
+    "lead": "The seats at the back"
+  },
+  {
+    "id": "comparison-14",
+    "category": "comparison",
+    "prompt": "No city in Britain is as exciting as Liverpool.",
+    "answers": [
+      "Liverpool is the most exciting city in Britain.",
+      "Liverpool is more exciting than any other city in Britain.",
+      "Liverpool is more exciting than the other cities in Britain."
+    ],
+    "lead": "Liverpool"
+  },
+  {
+    "id": "comparison-15",
+    "category": "comparison",
+    "prompt": "Speaking Japanese is easier than writing Japanese.",
+    "answers": [
+      "Writing Japanese isn't as easy as speaking Japanese.",
+      "Writing Japanese is not as easy as speaking Japanese.",
+      "Writing Japanese is less easy than speaking Japanese.",
+      "Writing Japanese is harder than speaking Japanese."
+    ],
+    "lead": "Writing Japanese"
+  },
+  {
+    "id": "comparison-16",
+    "category": "comparison",
+    "prompt": "Travelling by plane is more comfortable than by train.",
+    "answers": [
+      "Travelling by train isn't as comfortable as by plane.",
+      "Traveling by train isn't as comfortable as by plane.",
+      "Travelling by train is not as comfortable as by plane.",
+      "Travelling by train is less comfortable than travelling by plane.",
+      "Travelling by train is less comfortable than by plane."
+    ],
+    "lead": "Travelling by train"
+  },
+  {
+    "id": "comparison-17",
+    "category": "comparison",
+    "prompt": "The countryside is not as noisy as the city.",
+    "answers": [
+      "The city is noisier than the countryside.",
+      "The city is more noisy than the countryside.",
+      "The countryside is less noisy than the city."
+    ],
+    "lead": "The city"
+  },
+  {
+    "id": "comparison-18",
+    "category": "comparison",
+    "prompt": "Many people say that no city in the world is as romantic as Venice.",
+    "answers": [
+      "Many people say that Venice is the most romantic city in the world.",
+      "Many people say that Venice is more romantic than any other city in the world.",
+      "Many people say that Venice is more romantic than the other cities in the world."
+    ],
+    "lead": "Many people say that Venice is"
+  },
+  {
+    "id": "comparison-19",
+    "category": "comparison",
+    "prompt": "No place on the Earth is as cold as Antarctica.",
+    "answers": [
+      "Antarctica is the coldest place on the Earth.",
+      "Antarctica is the coldest place on Earth.",
+      "Antarctica is colder than any other place on Earth.",
+      "Antarctica is colder than any other place on the Earth."
+    ],
+    "lead": "Antarctica"
+  },
+  {
+    "id": "comparison-20",
+    "category": "comparison",
+    "prompt": "Central Park in New York is bigger than Hyde Park in London.",
+    "answers": [
+      "Hyde Park in London isn't as big as Central Park in New York.",
+      "Hyde Park in London is not as big as Central Park in New York.",
+      "Hyde Park in London is less big than Central Park in New York.",
+      "Hyde Park in London is smaller than Central Park in New York."
+    ],
+    "lead": "Hyde Park in London"
+  },
+  {
+    "id": "relative-21",
+    "category": "relative",
+    "prompt": "He worked for a woman. She used to be an artist.",
+    "answers": [
+      "He worked for a woman who used to be an artist.",
+      "He worked for a woman that used to be an artist."
+    ],
+    "lead": ""
+  },
+  {
+    "id": "relative-22",
+    "category": "relative",
+    "prompt": "They called a doctor. He lived nearby.",
+    "answers": [
+      "They called a doctor who lived nearby.",
+      "They called a doctor that lived nearby."
+    ],
+    "lead": ""
+  },
+  {
+    "id": "relative-23",
+    "category": "relative",
+    "prompt": "I wrote an email to my sister. She lives in Italy.",
+    "answers": [
+      "I wrote an email to my sister who lives in Italy.",
+      "I wrote an email to my sister that lives in Italy."
+    ],
+    "lead": ""
+  },
+  {
+    "id": "relative-24",
+    "category": "relative",
+    "prompt": "The police officer has just arrested a man. He robbed the bank.",
+    "answers": [
+      "The police officer has just arrested a man who robbed the bank.",
+      "The police officer has just arrested a man that robbed the bank."
+    ],
+    "lead": ""
+  },
+  {
+    "id": "relative-25",
+    "category": "relative",
+    "prompt": "We broke a car. It belonged to my uncle.",
+    "answers": [
+      "We broke a car which belonged to my uncle.",
+      "We broke a car that belonged to my uncle."
+    ],
+    "lead": ""
+  },
+  {
+    "id": "relative-26",
+    "category": "relative",
+    "prompt": "Nam loves books. They have happy endings.",
+    "answers": [
+      "Nam loves books which have happy endings.",
+      "Nam loves books that have happy endings."
+    ],
+    "lead": ""
+  },
+  {
+    "id": "relative-27",
+    "category": "relative",
+    "prompt": "I first learned English from a book. I've just reread it.",
+    "answers": [
+      "I first learned English from a book which I've just reread.",
+      "I first learned English from a book which I have just reread.",
+      "I first learned English from a book that I've just reread.",
+      "I first learned English from a book that I have just reread."
+    ],
+    "lead": ""
+  },
+  {
+    "id": "relative-28",
+    "category": "relative",
+    "prompt": "She opened the cupboard. She kept her best glasses in there.",
+    "answers": [
+      "She opened the cupboard where she kept her best glasses.",
+      "She opened the cupboard in which she kept her best glasses.",
+      "She opened the cupboard which she kept her best glasses in."
+    ],
+    "lead": ""
+  },
+  {
+    "id": "relative-29",
+    "category": "relative",
+    "prompt": "This is a very old house. General Giap lived here.",
+    "answers": [
+      "This is a very old house where General Giap lived.",
+      "This is a very old house in which General Giap lived.",
+      "This is a very old house which General Giap lived in."
+    ],
+    "lead": ""
+  },
+  {
+    "id": "relative-30",
+    "category": "relative",
+    "prompt": "There's a great new bookshop in town. You can buy all the latest magazines there.",
+    "answers": [
+      "There's a great new bookshop in town where you can buy all the latest magazines.",
+      "There is a great new bookshop in town where you can buy all the latest magazines.",
+      "There's a great new bookshop in town in which you can buy all the latest magazines.",
+      "There is a great new bookshop in town in which you can buy all the latest magazines."
+    ],
+    "lead": ""
+  },
+  {
+    "id": "cond1-31",
+    "category": "cond1",
+    "prompt": "I'll be very disappointed unless he passes his exam.",
+    "answers": [
+      "If he doesn't pass his exam, I'll be disappointed.",
+      "If he does not pass his exam, I will be disappointed.",
+      "If he doesn't pass his exam, I'll be very disappointed.",
+      "If he does not pass his exam, I will be very disappointed.",
+      "If he doesn't pass his exam, I will be very disappointed."
+    ],
+    "lead": "If"
+  },
+  {
+    "id": "cond1-32",
+    "category": "cond1",
+    "prompt": "They won't let her into the concert if she doesn't have a ticket.",
+    "answers": [
+      "Unless she has a ticket, they won't let her into the concert.",
+      "Unless she has a ticket, they will not let her into the concert.",
+      "They won't let her into the concert unless she has a ticket."
+    ],
+    "lead": "Unless"
+  },
+  {
+    "id": "cond1-33",
+    "category": "cond1",
+    "prompt": "If she doesn't water these plants, they will die.",
+    "answers": [
+      "Unless she waters these plants, they will die.",
+      "These plants will die unless she waters them."
+    ],
+    "lead": "Unless"
+  },
+  {
+    "id": "cond1-34",
+    "category": "cond1",
+    "prompt": "I won't be able to do any work if I don't have a quiet room.",
+    "answers": [
+      "Unless I have a quiet room, I won't be able to do any work.",
+      "Unless I have a quiet room, I will not be able to do any work."
+    ],
+    "lead": "Unless"
+  },
+  {
+    "id": "cond1-35",
+    "category": "cond1",
+    "prompt": "If you don't stop smoking, you will be seriously ill.",
+    "answers": [
+      "Unless you stop smoking, you will be seriously ill."
+    ],
+    "lead": "Unless"
+  },
+  {
+    "id": "cond1-36",
+    "category": "cond1",
+    "prompt": "She won't agree to that unless you accept her suggestion.",
+    "answers": [
+      "If you accept her suggestion, she will agree to that.",
+      "If you don't accept her suggestion, she won't agree to that.",
+      "If you do not accept her suggestion, she will not agree to that.",
+      "She will agree to that if you accept her suggestion."
+    ],
+    "lead": "If"
+  },
+  {
+    "id": "cond1-37",
+    "category": "cond1",
+    "prompt": "If she doesn't pay up, we're going to be in real trouble.",
+    "answers": [
+      "Unless she pays up, we're going to be in real trouble.",
+      "Unless she pays up, we are going to be in real trouble."
+    ],
+    "lead": "Unless"
+  },
+  {
+    "id": "cond1-38",
+    "category": "cond1",
+    "prompt": "If it doesn't rain this August, there will be water shortages.",
+    "answers": [
+      "Unless it rains this August, there will be water shortages."
+    ],
+    "lead": "Unless"
+  },
+  {
+    "id": "cond1-39",
+    "category": "cond1",
+    "prompt": "Unless it stops raining, we will not have a picnic.",
+    "answers": [
+      "If it doesn't stop raining, we will not have a picnic.",
+      "If it does not stop raining, we will not have a picnic.",
+      "If it doesn't stop raining, we won't have a picnic.",
+      "We will not have a picnic if it doesn't stop raining."
+    ],
+    "lead": "If"
+  },
+  {
+    "id": "cond1-40",
+    "category": "cond1",
+    "prompt": "Unless you start now, you will not reach there in time.",
+    "answers": [
+      "If you don't start now, you will not reach there in time.",
+      "If you do not start now, you will not reach there in time.",
+      "If you don't start now, you won't reach there in time."
+    ],
+    "lead": "If"
+  },
+  {
+    "id": "cond2-41",
+    "category": "cond2",
+    "prompt": "I can't take you to the airport because I don't have a car.",
+    "answers": [
+      "If I had a car, I could take you to the airport.",
+      "If I had a car, I would be able to take you to the airport."
+    ],
+    "lead": ""
+  },
+  {
+    "id": "cond2-42",
+    "category": "cond2",
+    "prompt": "I have a headache. I can't go swimming.",
+    "answers": [
+      "If I didn't have a headache, I could go swimming.",
+      "If I did not have a headache, I could go swimming.",
+      "If I didn't have a headache, I would be able to go swimming."
+    ],
+    "lead": ""
+  },
+  {
+    "id": "cond2-43",
+    "category": "cond2",
+    "prompt": "We don't take a holiday this year because we haven't got any money.",
+    "answers": [
+      "If we had some money, we would take a holiday this year.",
+      "If we had any money, we would take a holiday this year.",
+      "If we had some money, we could take a holiday this year."
+    ],
+    "lead": ""
+  },
+  {
+    "id": "cond2-44",
+    "category": "cond2",
+    "prompt": "We don't live in a big house. We can't invite friends to stay.",
+    "answers": [
+      "If we lived in a big house, we could invite friends to stay.",
+      "If we lived in a big house, we would be able to invite friends to stay."
+    ],
+    "lead": ""
+  },
+  {
+    "id": "cond2-45",
+    "category": "cond2",
+    "prompt": "Kevin doesn't get good grades because he doesn't study much.",
+    "answers": [
+      "If Kevin studied much, he would get good grades.",
+      "If Kevin studied more, he would get good grades."
+    ],
+    "lead": ""
+  },
+  {
+    "id": "cond2-46",
+    "category": "cond2",
+    "prompt": "Francis works very hard. He doesn't have time to spend with his family.",
+    "answers": [
+      "If Francis didn't work very hard, he would have time to spend with his family.",
+      "If Francis did not work very hard, he would have time to spend with his family.",
+      "If Francis didn't work very hard, he could have time to spend with his family."
+    ],
+    "lead": ""
+  },
+  {
+    "id": "cond2-47",
+    "category": "cond2",
+    "prompt": "Andrea doesn't pay attention in class. Then she doesn't understand the homework.",
+    "answers": [
+      "If Andrea paid attention in class, she would understand the homework.",
+      "If Andrea paid attention in class, she could understand the homework."
+    ],
+    "lead": ""
+  },
+  {
+    "id": "cond2-48",
+    "category": "cond2",
+    "prompt": "Johnny's mom often gets angry with Johnny because he doesn't pick up his toys.",
+    "answers": [
+      "If Johnny picked up his toys, his mom wouldn't get angry with him.",
+      "If Johnny picked up his toys, his mother wouldn't get angry with him.",
+      "If Johnny picked up his toys, his mom would not get angry with him.",
+      "If Johnny picked up his toys, his mother would not get angry with him."
+    ],
+    "lead": ""
+  },
+  {
+    "id": "cond2-49",
+    "category": "cond2",
+    "prompt": "Ben drives too fast so he gets a lot of speeding tickets.",
+    "answers": [
+      "If Ben didn't drive too fast, he wouldn't get a lot of speeding tickets.",
+      "If Ben did not drive too fast, he would not get a lot of speeding tickets.",
+      "If Ben didn't drive too fast, he would not get a lot of speeding tickets."
+    ],
+    "lead": ""
+  },
+  {
+    "id": "cond2-50",
+    "category": "cond2",
+    "prompt": "Andrew coughs a lot because he smokes.",
+    "answers": [
+      "If Andrew didn't smoke, he wouldn't cough a lot.",
+      "If Andrew did not smoke, he would not cough a lot.",
+      "If Andrew didn't smoke, he would not cough a lot."
+    ],
+    "lead": ""
+  },
+  {
+    "id": "reported-51",
+    "category": "reported",
+    "prompt": "Jane said, \"I want to study medicine, father.\"",
+    "answers": [
+      "Jane said to her father that she wanted to study medicine.",
+      "Jane told her father that she wanted to study medicine."
+    ],
+    "lead": ""
+  },
+  {
+    "id": "reported-52",
+    "category": "reported",
+    "prompt": "\"I studied music for five years.\" Alex said.",
+    "answers": [
+      "Alex said he had studied music for five years.",
+      "Alex said that he had studied music for five years."
+    ],
+    "lead": ""
+  },
+  {
+    "id": "reported-53",
+    "category": "reported",
+    "prompt": "\"I've been to Shanghai.\" She said.",
+    "answers": [
+      "She said she had been to Shanghai.",
+      "She said that she had been to Shanghai."
+    ],
+    "lead": ""
+  },
+  {
+    "id": "reported-54",
+    "category": "reported",
+    "prompt": "\"We can help you.\" John said.",
+    "answers": [
+      "John said they could help me.",
+      "John said that they could help me.",
+      "John told me they could help me.",
+      "John said they would be able to help me."
+    ],
+    "lead": ""
+  },
+  {
+    "id": "reported-55",
+    "category": "reported",
+    "prompt": "He said to me, \"I saw your friend at the cinema yesterday.\"",
+    "answers": [
+      "He said to me he had seen my friend at the cinema the day before.",
+      "He told me he had seen my friend at the cinema the day before.",
+      "He said to me that he had seen my friend at the cinema the previous day.",
+      "He told me that he had seen my friend at the cinema the day before.",
+      "He said that he had seen my friend at the cinema the day before."
+    ],
+    "lead": ""
+  },
+  {
+    "id": "reported-56",
+    "category": "reported",
+    "prompt": "Mr West said, \"I am very tired.\"",
+    "answers": [
+      "Mr West said he was very tired.",
+      "Mr West said that he was very tired."
+    ],
+    "lead": ""
+  },
+  {
+    "id": "reported-57",
+    "category": "reported",
+    "prompt": "He said, \"I am flying to Rome tomorrow.\"",
+    "answers": [
+      "He said he was flying to Rome the next day.",
+      "He said that he was flying to Rome the following day.",
+      "He said he was flying to Rome the following day."
+    ],
+    "lead": ""
+  },
+  {
+    "id": "reported-58",
+    "category": "reported",
+    "prompt": "George said, \"I have lived in this village all my life.\"",
+    "answers": [
+      "George said he had lived in that village all his life.",
+      "George said that he had lived in that village all his life."
+    ],
+    "lead": ""
+  },
+  {
+    "id": "reported-59",
+    "category": "reported",
+    "prompt": "Peter said to me, \"I can't go out with you because I am not feeling well.\"",
+    "answers": [
+      "Peter said to me he couldn't go out with me because he was not feeling well.",
+      "Peter told me he couldn't go out with me because he wasn't feeling well.",
+      "Peter said to me he could not go out with me because he wasn't feeling well.",
+      "Peter told me that he couldn't go out with me because he was not feeling well."
+    ],
+    "lead": ""
+  },
+  {
+    "id": "reported-60",
+    "category": "reported",
+    "prompt": "Helen said to me, \"I hope you have enjoyed yourself.\"",
+    "answers": [
+      "Helen said to me she hoped I had enjoyed myself.",
+      "Helen told me she hoped I had enjoyed myself."
+    ],
+    "lead": ""
+  },
+  {
+    "id": "modal-61",
+    "category": "modal",
+    "prompt": "Why was it necessary for you to go to school last Saturday?",
+    "answers": [
+      "Why did you have to go to school last Saturday?"
+    ],
+    "lead": "Why did you"
+  },
+  {
+    "id": "modal-62",
+    "category": "modal",
+    "prompt": "I don't think it's a good idea for you to spend too much time playing games.",
+    "answers": [
+      "You shouldn't spend too much time playing games.",
+      "You should not spend too much time playing games."
+    ],
+    "lead": "You"
+  },
+  {
+    "id": "modal-63",
+    "category": "modal",
+    "prompt": "It's necessary for the children to wear a uniform.",
+    "answers": [
+      "The children have to wear a uniform.",
+      "The children must wear a uniform."
+    ],
+    "lead": "The children"
+  },
+  {
+    "id": "modal-64",
+    "category": "modal",
+    "prompt": "I think it would be a good idea to say sorry to your parents.",
+    "answers": [
+      "You should say sorry to your parents."
+    ],
+    "lead": "You"
+  },
+  {
+    "id": "modal-65",
+    "category": "modal",
+    "prompt": "It is not a good idea for you to drink so much coffee.",
+    "answers": [
+      "You shouldn't drink so much coffee.",
+      "You should not drink so much coffee."
+    ],
+    "lead": "You"
+  },
+  {
+    "id": "modal-66",
+    "category": "modal",
+    "prompt": "It is not necessary for him to apologize. He was absolutely right.",
+    "answers": [
+      "He doesn't have to apologize. He was absolutely right.",
+      "He does not have to apologize. He was absolutely right."
+    ],
+    "lead": "He doesn't"
+  },
+  {
+    "id": "modal-67",
+    "category": "modal",
+    "prompt": "It is necessary for us to give him our answer today or we'll lose out on the contract.",
+    "answers": [
+      "We have to give him our answer today or we'll lose out on the contract.",
+      "We must give him our answer today or we'll lose out on the contract."
+    ],
+    "lead": "We have"
+  },
+  {
+    "id": "modal-68",
+    "category": "modal",
+    "prompt": "It's a good idea for you to go and lie down.",
+    "answers": [
+      "You should go and lie down."
+    ],
+    "lead": "You"
+  },
+  {
+    "id": "modal-69",
+    "category": "modal",
+    "prompt": "It's not necessary for you to learn all the new words.",
+    "answers": [
+      "You don't have to learn all the new words.",
+      "You do not have to learn all the new words."
+    ],
+    "lead": "You"
+  },
+  {
+    "id": "modal-70",
+    "category": "modal",
+    "prompt": "Is it necessary for you to attend every English lesson?",
+    "answers": [
+      "Do you have to attend every English lesson?",
+      "Must you attend every English lesson?"
+    ],
+    "lead": "Do you"
+  },
+  {
+    "id": "modal-71",
+    "category": "modal",
+    "prompt": "It would be a good idea if Harry took a holiday.",
+    "answers": [
+      "Harry should take a holiday."
+    ],
+    "lead": "Harry"
+  },
+  {
+    "id": "modal-72",
+    "category": "modal",
+    "prompt": "It's not a good idea to leave a child unsupervised.",
+    "answers": [
+      "You shouldn't leave a child unsupervised.",
+      "A child shouldn't be unsupervised.",
+      "You should not leave a child unsupervised.",
+      "A child shouldn't be left unsupervised.",
+      "A child should not be left unsupervised."
+    ],
+    "lead": "You"
+  },
+  {
+    "id": "modal-73",
+    "category": "modal",
+    "prompt": "It is necessary to register in advance to take the course.",
+    "answers": [
+      "You have to register in advance to take the course.",
+      "You must register in advance to take the course."
+    ],
+    "lead": "You"
+  },
+  {
+    "id": "modal-74",
+    "category": "modal",
+    "prompt": "It is not necessary to read all those books.",
+    "answers": [
+      "You don't have to read all those books.",
+      "You do not have to read all those books.",
+      "You needn't read all those books."
+    ],
+    "lead": "You"
+  },
+  {
+    "id": "modal-75",
+    "category": "modal",
+    "prompt": "I think she needs to spend more time with you.",
+    "answers": [
+      "She should spend more time with you.",
+      "She ought to spend more time with you."
+    ],
+    "lead": "You"
+  },
+  {
+    "id": "although-76",
+    "category": "although",
+    "prompt": "Although she is beautiful, everybody hates her.",
+    "answers": [
+      "In spite of her beauty, everybody hates her.",
+      "Despite her beauty, everybody hates her.",
+      "In spite of being beautiful, everybody hates her.",
+      "Despite being beautiful, everybody hates her.",
+      "In spite of the fact that she is beautiful, everybody hates her.",
+      "Despite the fact that she is beautiful, everybody hates her."
+    ],
+    "lead": "In spite of"
+  },
+  {
+    "id": "although-77",
+    "category": "although",
+    "prompt": "Jane rarely sees Alan although they are neighbors.",
+    "answers": [
+      "In spite of being neighbors, Jane rarely sees Alan.",
+      "Despite being neighbors, Jane rarely sees Alan.",
+      "In spite of their being neighbors, Jane rarely sees Alan.",
+      "Despite their being neighbors, Jane rarely sees Alan.",
+      "In spite of the fact that they are neighbors, Jane rarely sees Alan.",
+      "Despite the fact that they are neighbors, Jane rarely sees Alan."
+    ],
+    "lead": "In spite of"
+  },
+  {
+    "id": "although-78",
+    "category": "although",
+    "prompt": "Kate did not do well in the exam in spite of working very hard.",
+    "answers": [
+      "Although Kate worked very hard, she didn't do well in the exam.",
+      "Although Kate worked very hard, she did not do well in the exam.",
+      "Although she worked very hard, Kate did not do well in the exam.",
+      "Although she worked very hard, Kate didn't do well in the exam.",
+      "In spite of the fact that Kate worked very hard, she didn't do well in the exam.",
+      "Despite the fact that Kate worked very hard, she didn't do well in the exam.",
+      "In spite of the fact that she worked very hard, Kate didn't do well in the exam.",
+      "Despite the fact that she worked very hard, Kate didn't do well in the exam."
+    ],
+    "lead": "Although"
+  },
+  {
+    "id": "although-79",
+    "category": "although",
+    "prompt": "Although I was very hungry, I couldn't eat.",
+    "answers": [
+      "In spite of being hungry, I couldn't eat.",
+      "Despite being hungry, I couldn't eat.",
+      "In spite of my hunger, I couldn't eat.",
+      "In spite of being very hungry, I couldn't eat.",
+      "Despite my hunger, I couldn't eat.",
+      "In spite of being hungry, I could not eat.",
+      "In spite of the fact that I was very hungry, I couldn't eat.",
+      "Despite the fact that I was very hungry, I couldn't eat."
+    ],
+    "lead": "In spite of"
+  },
+  {
+    "id": "although-80",
+    "category": "although",
+    "prompt": "In spite of the difficulty, they managed to solve the math problem.",
+    "answers": [
+      "Although the math problem was difficult, they managed to solve it.",
+      "Although it was difficult, they managed to solve the math problem.",
+      "Although there was a difficulty, they managed to solve the math problem.",
+      "In spite of the fact that it was difficult, they managed to solve the math problem.",
+      "Despite the fact that it was difficult, they managed to solve the math problem.",
+      "In spite of the fact that the math problem was difficult, they managed to solve it.",
+      "Despite the fact that the math problem was difficult, they managed to solve it.",
+      "In spite of the fact that there was a difficulty, they managed to solve the math problem.",
+      "Despite the fact that there was a difficulty, they managed to solve the math problem."
+    ],
+    "lead": "Although"
+  },
+  {
+    "id": "although-81",
+    "category": "although",
+    "prompt": "She decided to go abroad for a year in spite of loving her boyfriend very much.",
+    "answers": [
+      "Although she loved her boyfriend very much, she decided to go abroad for a year.",
+      "In spite of the fact that she loved her boyfriend very much, she decided to go abroad for a year.",
+      "Despite the fact that she loved her boyfriend very much, she decided to go abroad for a year."
+    ],
+    "lead": "Although"
+  },
+  {
+    "id": "although-82",
+    "category": "although",
+    "prompt": "Although it was cold, Marie didn't put on her coat.",
+    "answers": [
+      "In spite of being cold, Marie didn't put on her coat.",
+      "In spite of the cold, Marie didn't put on her coat.",
+      "Despite the cold, Marie didn't put on her coat.",
+      "Despite being cold, Marie didn't put on her coat.",
+      "In spite of the cold, Marie did not put on her coat.",
+      "Despite the cold, Marie did not put on her coat.",
+      "In spite of the fact that it was cold, Marie didn't put on her coat.",
+      "Despite the fact that it was cold, Marie didn't put on her coat."
+    ],
+    "lead": "In spite of"
+  },
+  {
+    "id": "although-83",
+    "category": "although",
+    "prompt": "Clare did the work in spite of being ill.",
+    "answers": [
+      "Although Clare was ill, she did the work.",
+      "Although she was ill, Clare did the work.",
+      "In spite of the fact that Clare was ill, she did the work.",
+      "Despite the fact that Clare was ill, she did the work.",
+      "In spite of the fact that she was ill, Clare did the work.",
+      "Despite the fact that she was ill, Clare did the work."
+    ],
+    "lead": "Although"
+  },
+  {
+    "id": "although-84",
+    "category": "although",
+    "prompt": "Although the weather was bad, we enjoyed our trip.",
+    "answers": [
+      "In spite of the bad weather, we enjoyed our trip.",
+      "Despite the bad weather, we enjoyed our trip.",
+      "In spite of the weather being bad, we enjoyed our trip.",
+      "Despite the weather being bad, we enjoyed our trip.",
+      "In spite of the fact that the weather was bad, we enjoyed our trip.",
+      "Despite the fact that the weather was bad, we enjoyed our trip."
+    ],
+    "lead": "In spite of"
+  },
+  {
+    "id": "although-85",
+    "category": "although",
+    "prompt": "The children slept well in spite of the noise.",
+    "answers": [
+      "Although there was noise, the children slept well.",
+      "Although it was noisy, the children slept well.",
+      "Although there was a lot of noise, the children slept well.",
+      "In spite of the fact that there was noise, the children slept well.",
+      "Despite the fact that there was noise, the children slept well.",
+      "In spite of the fact that it was noisy, the children slept well.",
+      "Despite the fact that it was noisy, the children slept well.",
+      "In spite of the fact that there was a lot of noise, the children slept well.",
+      "Despite the fact that there was a lot of noise, the children slept well."
+    ],
+    "lead": "Although"
+  }
+]
