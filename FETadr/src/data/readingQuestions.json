@@ -32,16 +32,16 @@
         "setId": "read-01",
         "setTitle": "7.1",
         "answer": "A",
-        "notice": "Welcome to Hotel Maroc\nDear Guest\nOur holiday advisor is available in the\nlounge everyday8-10 am for booking\nguided tours,museum/garden tickets,\ncamel rider\nEnjoy your stay!",
+        "notice": "Welcome to Hotel Maroc\nDear Guest\nOur holiday advisor is available in the\nlounge everyday 8-10 am for booking\nguided tours, museum/garden tickets,\ncamel rider\nEnjoy your stay!",
         "prompt": "What does the text say?",
         "options": [
           {
             "key": "A",
-            "text": "People staying at Hotel Maroc can arrange activities"
+            "text": "People staying at Hotel Maroc can arrange activities throughout the hotel"
           },
           {
             "key": "B",
-            "text": "Hotel Maroc's holiday advisor accompanies guests on"
+            "text": "Hotel Maroc's holiday advisor accompanies guests on tours"
           },
           {
             "key": "C",
@@ -274,12 +274,12 @@
         "setId": "read-03",
         "setTitle": "7.3",
         "answer": "B",
-        "notice": "Bob\ntried to make you a\ndentist's appointment for\nFriday but they can only\ndo10a amon Monday. If\nthis is OK, ring\nbefore5pmtoday\nJill",
+        "notice": "Bob\ntried to make you a\ndentist's appointment for\nFriday but they can only\ndo 10AM on Monday. If\nthis is OK, ring\nbefore 5pm today\nJill",
         "prompt": "What does the text say?",
         "options": [
           {
             "key": "A",
-            "text": "make a dentist's appointment forJill"
+            "text": "make a dentist's appointment for Jill"
           },
           {
             "key": "B",
@@ -433,7 +433,7 @@
         "options": [
           {
             "key": "A",
-            "text": "how tostore the product"
+            "text": "how to store the product"
           },
           {
             "key": "B",
@@ -480,7 +480,7 @@
         "setId": "read-05",
         "setTitle": "8.1",
         "answer": "C",
-        "notice": "From:Tropical Travel\nTo:Sally Jones\nHere are the details you requested\nWe have reserved your hol day\nbooking until9pm tonight,butwill\nrequire100to complete i",
+        "notice": "From: Tropical Travel\nTo: Sally Jones\nHere are the details you requested\nWe have reserved your holiday\nbooking until 9pm tonight, but will\nrequire £100 to complete it",
         "prompt": "If Sally wants togo on the holiday shemust",
         "options": [
           {
@@ -679,11 +679,11 @@
           },
           {
             "key": "B",
-            "text": "go into the cinema for free if they buy pizza from the"
+            "text": "go into the cinema for free if they buy pizza from the cafe"
           },
           {
             "key": "C",
-            "text": "get pizza for nothing when they pay to go into the"
+            "text": "get pizza for nothing when they pay to go into the cinema"
           }
         ]
       },
@@ -791,20 +791,20 @@
         "setId": "read-07",
         "setTitle": "8.3",
         "answer": "A",
-        "notice": ". New Message\nTo:Denise\nFrom:Maria\nAbout that sweater you borrowed\nfor skiing last time-could\nbring it round to my place? I'm\ngoing snowboarding with Mark\nsoon and cold!",
+        "notice": ". New Message\nTo: Denise\nFrom: Maria\nAbout that sweater you borrowed\nfor skiing last time-could\nbring it round to my place? I'm\ngoing snowboarding with Mark\nsoon and cold!",
         "prompt": "her a while ago you her and Mark that she canwear for snowboarding",
         "options": [
           {
             "key": "A",
-            "text": "Maria needs Denise to return something shelent"
+            "text": "Maria needs Denise to return something she lent her a while ago"
           },
           {
             "key": "B",
-            "text": "Maria is inviting Denise to go somewhere with"
+            "text": "Maria is inviting Denise to go somewhere with her and Mark"
           },
           {
             "key": "C",
-            "text": "Maria wants to borrow something from Denise"
+            "text": "Maria wants to borrow something from Denise that she can wear for snowboarding"
           }
         ]
       },
@@ -963,7 +963,7 @@
         "setId": "read-09",
         "setTitle": "Plus 2.2",
         "answer": "C",
-        "notice": "Samir,\nJosh rang to say tickets are still available\nfor the Helix concert-you're not toolate!\nHe's able to get you a ticket. Let him know\ntoday if you're interested",
+        "notice": "Samir,\nJosh rang to say tickets are still available\nfor the Helix concert-you're not too late!\nHe's able to get you a ticket. Let him know\ntoday if you're interested",
         "prompt": "What must Samir do",
         "options": [
           {
@@ -976,7 +976,7 @@
           },
           {
             "key": "C",
-            "text": "contact Josh if he wants togo to the concert"
+            "text": "contact Josh if he wants to go to the concert"
           }
         ]
       },
@@ -1032,20 +1032,20 @@
         "setId": "read-09",
         "setTitle": "Plus 2.2",
         "answer": "C",
-        "notice": "Make sure youhave enough\nwith you before filling your\nwith petrol",
-        "prompt": "money filling your car car with petrol are able topay you",
+        "notice": "Make sure you have enough money\nwith you before filling your car\nwith petrol",
+        "prompt": "money filling your car car with petrol are able to pay you",
         "options": [
           {
             "key": "A",
-            "text": "You must check you have chosen the right petrol before"
+            "text": "You must check you have chosen the right petrol before filling your car"
           },
           {
             "key": "B",
-            "text": "You can pay with cash or credit card after filling your car"
+            "text": "You can pay with cash or credit card after filling your car with petrol are able to pay you"
           },
           {
             "key": "C",
-            "text": "You shouldn't put petrol in your car without checking"
+            "text": "You shouldn't put petrol in your car without checking you"
           }
         ]
       },
@@ -1055,7 +1055,7 @@
         "setId": "read-09",
         "setTitle": "Plus 2.2",
         "answer": "B",
-        "notice": "Jake You're coming\nSonia's party tonight，aren't\nnono needn't worry\nfood there'll be plenty\nthere. Why not bring your\nnew cDs though? Ring me，I'11\npick you up\nLena",
+        "notice": "Jake You're coming\nSonia's party tonight，aren't\nyou? You needn't worry\nfood there'll be plenty\nthere. Why not bring your\nnew cDs though? Ring me，I'11\npick you up\nLena",
         "prompt": "to party about party",
         "options": [
           {
@@ -1064,11 +1064,11 @@
           },
           {
             "key": "B",
-            "text": "Lena thinks Jake should take some music to Sonia's"
+            "text": "Lena thinks Jake should take some music to Sonia's party"
           },
           {
             "key": "C",
-            "text": "Lena would like Jake to bring something to eat at Sonia’s"
+            "text": "Lena would like Jake to bring something to eat at Sonia’s party"
           }
         ]
       }
@@ -1135,7 +1135,7 @@
         "options": [
           {
             "key": "A",
-            "text": "This bridge will be repaired 1in two weeks’t time"
+            "text": "This bridge will be repaired in two weeks’t time beginning on Sunday at midday"
           },
           {
             "key": "B",
@@ -1143,7 +1143,7 @@
           },
           {
             "key": "C",
-            "text": "It will not be possible to use this bridge on Sunday after"
+            "text": "It will not be possible to use this bridge on Sunday after midday"
           }
         ]
       },

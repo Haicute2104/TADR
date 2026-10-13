@@ -750,7 +750,7 @@
     "number": 32,
     "pageId": "g2",
     "topic": "Tính từ, trường học và thể thao",
-    "stem": "You mayfeel nervous if you ______ on stage for the first time",
+    "stem": "You may feel nervous if you ______ on stage for the first time",
     "options": [
       {
         "key": "A",
@@ -896,7 +896,7 @@
     "number": 38,
     "pageId": "g2",
     "topic": "Tính từ, trường học và thể thao",
-    "stem": "Ithink that ______ school uniform de personalizes children",
+    "stem": "I think that ______ school uniform de personalizes children",
     "options": [
       {
         "key": "A",
@@ -1267,7 +1267,7 @@
     "number": 53,
     "pageId": "g3",
     "topic": "Quần áo, nhà cửa, giao thông",
-    "stem": "are thebest things to wear on your feet when you go running",
+    "stem": "______are the best things to wear on your feet when you go running",
     "options": [
       {
         "key": "A",
@@ -1279,7 +1279,11 @@
       },
       {
         "key": "C",
-        "text": "High-heeled shoes D. Trainers"
+        "text": "High-heeled shoes"
+      },
+      {
+        "key": "D",
+        "text": "Trainers"
       }
     ],
     "answer": "D"
@@ -1646,7 +1650,11 @@
       },
       {
         "key": "B",
-        "text": "in the countryside C. in the mountains"
+        "text": "in the countryside"
+      },
+      {
+        "key": "C",
+        "text": "in the mountains"
       },
       {
         "key": "D",
@@ -1728,7 +1736,7 @@
         "text": "motorway"
       }
     ],
-    "answer": "A"
+    "answer": "B"
   },
   {
     "number": 72,
@@ -1809,7 +1817,7 @@
     "number": 75,
     "pageId": "g3",
     "topic": "Quần áo, nhà cửa, giao thông",
-    "stem": "Vehicles can drive faster ona ______ than on other roads",
+    "stem": "Vehicles can drive faster on a ______ than on other roads",
     "options": [
       {
         "key": "A",
@@ -2455,7 +2463,7 @@
     "number": 111,
     "pageId": "g4",
     "topic": "Phrasal verb và word formation",
-    "stem": "Cinema is thebest form of ______",
+    "stem": "Cinema is the best form of ______",
     "options": [
       {
         "key": "A",
@@ -2501,7 +2509,7 @@
     "number": 113,
     "pageId": "g4",
     "topic": "Phrasal verb và word formation",
-    "stem": "It was a huge ______ whenI didn't get a part in the play",
+    "stem": "It was a huge ______ when I didn't get a part in the play",
     "options": [
       {
         "key": "A",

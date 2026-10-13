@@ -33,6 +33,7 @@ export function MockPage() {
   const [speakingBusy, setSpeakingBusy] = useState(false)
   const [speakingError, setSpeakingError] = useState("")
   const [speakingResult, setSpeakingResult] = useState(null)
+  const [letterResult, setLetterResult] = useState(null)
   const [left, setLeft] = useState(75 * 60)
   const [running, setRunning] = useState(false)
   const recognitionRef = useRef(null)
@@ -68,6 +69,7 @@ export function MockPage() {
     setSpeakingBusy(false)
     setSpeakingError("")
     setSpeakingResult(null)
+    setLetterResult(null)
     stableRef.current = ""
     setLeft(75 * 60)
     setRunning(true)
@@ -163,7 +165,8 @@ export function MockPage() {
     ? result.listeningScore + result.grammarScore + result.noticeScore + result.writingScore
     : 0
   const speakingPoints = speakingResult?.total ?? 0
-  const grandTotal = writtenTotal + speakingPoints
+  const letterPoints = letterResult?.total ?? 0
+  const grandTotal = writtenTotal + letterPoints + speakingPoints
   const speakingTopic = speakingTopics.find((item) => item.id === paper?.speaking) ?? speakingTopics[0]
   const speakingIndex = speakingTopics.findIndex((item) => item.id === speakingTopic.id) + 1
 
@@ -237,44 +240,70 @@ export function MockPage() {
     setRunning(false)
     const transcript = (stableRef.current || speakingTranscript).trim()
     setSpeakingTranscript(transcript)
-    if (!transcript) {
-      setSpeakingResult({
-        parts: [],
-        total: 0,
-        max: 8,
-        note: "Bạn chưa nói về topic nên phần này 0/20 điểm.",
-      })
-      setStep(5)
-      return
-    }
     setSpeakingBusy(true)
     setSpeakingError("")
     const topicQuestions = [speakingTopic.title, "You should say:", ...speakingTopic.points, speakingTopic.closing].filter(Boolean)
+    const letterPrompt = letters.find((item) => item.id === paper.letter)?.prompt ?? ""
+    const letterText = letterDraft.trim()
     try {
-      const response = await fetch("/api/score/speaking", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          part: 2,
-          title: speakingTopic.title,
-          questions: [
-            ...topicQuestions,
-            "Chỉ chấm đoạn nói về topic này. Bỏ qua phần giới thiệu bản thân và các câu trả lời hỏi thêm nếu chúng nằm trong cùng bản chữ.",
-          ],
-          transcript,
-        }),
-      })
-      const payload = await response.json()
-      if (!response.ok) throw new Error(payload.error || "Không chấm được phần nói")
-      setSpeakingResult({
-        parts: [{ part: 2, title: speakingTopic.title, ...payload }],
-        total: payload.score,
-        max: 8,
-        note: "",
-      })
+      const [letterOutcome, speakingOutcome] = await Promise.all([
+        letterText
+          ? fetch("/api/score/letter", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              topicId: paper.letter,
+              prompt: letterPrompt,
+              text: letterText,
+              wordCount: countWords(letterText),
+            }),
+          }).then(async (response) => {
+            const payload = await response.json()
+            if (!response.ok) throw new Error(payload.error || "Không chấm được thư")
+            return { ...payload, note: "" }
+          })
+          : Promise.resolve({
+            criteria: [],
+            total: 0,
+            max: 20,
+            advice: [],
+            note: "Bạn chưa viết thư nên phần này 0/20 điểm.",
+          }),
+        transcript
+          ? fetch("/api/score/speaking", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              part: 2,
+              title: speakingTopic.title,
+              questions: [
+                ...topicQuestions,
+                "Chỉ chấm đoạn nói về topic này. Bỏ qua phần giới thiệu bản thân và các câu trả lời hỏi thêm nếu chúng nằm trong cùng bản chữ.",
+              ],
+              transcript,
+            }),
+          }).then(async (response) => {
+            const payload = await response.json()
+            if (!response.ok) throw new Error(payload.error || "Không chấm được phần nói")
+            return {
+              parts: [{ part: 2, title: speakingTopic.title, ...payload }],
+              total: payload.score,
+              max: 8,
+              note: "",
+            }
+          })
+          : Promise.resolve({
+            parts: [],
+            total: 0,
+            max: 8,
+            note: "Bạn chưa nói về topic nên phần này 0/20 điểm.",
+          }),
+      ])
+      setLetterResult(letterOutcome)
+      setSpeakingResult(speakingOutcome)
       setStep(5)
     } catch (caught) {
-      setSpeakingError(caught instanceof Error ? caught.message : "Không chấm được phần nói")
+      setSpeakingError(caught instanceof Error ? caught.message : "Không chấm được bài")
     } finally {
       setSpeakingBusy(false)
     }
@@ -291,7 +320,7 @@ export function MockPage() {
           type="info"
           showIcon
           style={{ marginBottom: 16 }}
-          title="Chưa có ngân hàng bài đọc dài và bài điền từ, nên hai phần đó không có trong đề. Thư chưa chấm tự động. Phần nghe chấm theo đáp án của từng đề."
+          title="Chưa có ngân hàng bài đọc dài và bài điền từ, nên hai phần đó không có trong đề. Thư được chấm khi nộp bài. Phần nghe chấm theo đáp án của từng đề."
         />
         <Button type="primary" onClick={start}>Tạo đề mới</Button>
       </div>
@@ -446,7 +475,7 @@ export function MockPage() {
               {speakingRecording ? "Dừng nói" : "Bắt đầu nói"}
             </Button>
             <Button type="primary" onClick={finishExam} disabled={speakingRecording || speakingBusy}>
-              {speakingBusy ? "Đang chấm và tính điểm..." : "Nộp bài"}
+              {speakingBusy ? "Đang chấm thư, phần nói và tính điểm..." : "Nộp bài"}
             </Button>
           </div>
           <TextArea
@@ -468,7 +497,7 @@ export function MockPage() {
           {speakingError && <Alert style={{ marginTop: 12 }} type="error" showIcon title={speakingError} />}
         </Card>
       )}
-      {step === 5 && result && speakingResult && (
+      {step === 5 && result && speakingResult && letterResult && (
         <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
           <Card title="Kết quả">
             <Statistic title="Tổng" value={formatMark(grandTotal)} suffix="/ 100" />
@@ -476,7 +505,7 @@ export function MockPage() {
               {[
                 { name: "Nghe", score: result.listeningScore, max: 20 },
                 { name: "Đọc", score: result.grammarScore + result.noticeScore, max: 30 },
-                { name: "Viết", score: result.writingScore, max: 30 },
+                { name: "Viết", score: result.writingScore + letterPoints, max: 30 },
                 { name: "Nói", score: speakingPoints, max: 20 },
               ].map((skill) => (
                 <div key={skill.name} className="skill-card">
@@ -510,10 +539,10 @@ export function MockPage() {
                 </ul>
               </section>
               <section>
-                <Text strong>Viết · {formatMark(result.writingScore)}/30</Text>
+                <Text strong>Viết · {formatMark(result.writingScore + letterPoints)}/30</Text>
                 <ul className="score-rule">
                   <li>Viết lại câu · 5 câu × 2 <strong>{result.writingScore}/10</strong></li>
-                  <li>Thư · {countWords(letterDraft)} từ <strong>0/20</strong></li>
+                  <li>Thư · {countWords(letterDraft)} từ <strong>{formatMark(letterPoints)}/20</strong></li>
                 </ul>
               </section>
               <section>
@@ -543,6 +572,8 @@ export function MockPage() {
             speakingResult={speakingResult}
             topicLabel={`Topic ${speakingIndex} · ${speakingTopic.title}`}
             speakingPoints={speakingPoints}
+            letterDraft={letterDraft}
+            letterResult={letterResult}
           />
           {paper.listening.map((slot) => {
             const part = listeningParts.find((item) => item.id === slot.partId)
@@ -575,7 +606,7 @@ function MarkedWords({ marks }) {
   ))
 }
 
-function AnswerReview({ misses, transcript, speakingResult, topicLabel, speakingPoints }) {
+function AnswerReview({ misses, transcript, speakingResult, topicLabel, speakingPoints, letterDraft, letterResult }) {
   const groups = [
     { id: "listen", name: "Nghe", items: misses.filter((item) => item.group === "listen") },
     { id: "read", name: "Đọc", items: misses.filter((item) => item.group === "read") },
@@ -600,6 +631,24 @@ function AnswerReview({ misses, transcript, speakingResult, topicLabel, speaking
           ))}
         </section>
       ))}
+      <section className="review-group">
+        <div className="review-group-head">
+          <span>Viết thư</span>
+          <span>{formatMark(letterResult.total)}/20</span>
+        </div>
+        <article className="review-item">
+          <div className="review-pair">
+            <div className="review-pane wrong">
+              <div className="review-tag">Bạn viết</div>
+              <div className="review-value">{letterDraft.trim() || "Chưa viết"}</div>
+            </div>
+            <div className="review-pane right">
+              <div className="review-tag">Nhận xét</div>
+              <LetterAdvice result={letterResult} />
+            </div>
+          </div>
+        </article>
+      </section>
       <section className="review-group">
         <div className="review-group-head">
           <span>Nói</span>
@@ -664,6 +713,25 @@ function WritingCompare({ compare }) {
         </div>
       )}
     </>
+  )
+}
+
+function LetterAdvice({ result }) {
+  if (result.note) return <div className="review-value">{result.note}</div>
+  return (
+    <div>
+      <div className="review-value">{formatMark(result.total)}/20</div>
+      {result.criteria?.map((item) => (
+        <div key={item.id} className="review-detail">
+          {item.name}: {formatMark(item.score)}/{item.max}. {item.comment}
+        </div>
+      ))}
+      {result.advice?.length > 0 && (
+        <ul className="review-advice">
+          {result.advice.map((line) => <li key={line}>{line}</li>)}
+        </ul>
+      )}
+    </div>
   )
 }
 
