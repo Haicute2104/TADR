@@ -1,0 +1,154 @@
+85	374	B1-PRACTICEEXERCISES
+106	423	Grammar & Vocabulary
+129	168	Choose the best answer
+146	352	when I
+147	167	1. The sun
+147	524	up this morning.
+163	364	B.shone/was waking
+163	667	D. was shining/was waking
+165	215	A. was shining/woke
+165	517	C.shone/woke
+184	611	the front door.
+185	392	when their father
+186	166	2. All the children
+202	215	A. slept/was opening
+202	518	C.slept/opened
+204	365	B.were sleeping/opened
+204	667	D. were sleeping/was opening
+220	316	dinner when you
+221	166	3. 1
+223	542	me.
+237	365	B.ate/was calling
+238	215	A.was eating/called
+238	517	C.ate/called
+239	668	D. was eating/ was calling
+255	312	dinner when the phone
+257	166	4.1
+273	214	A. cooked/rang B. was cooking/rang
+275	465	C. cooked/was ringingD. was cooking/was ringing
+293	357	homework,my mother
+293	620	at the door.
+294	166	5. While I
+311	365	B. did/was knocking
+311	515	C. was doing/knocked D. was doing/was knocking
+314	217	A. did/knocked
+330	165	6. Mr.Thompson
+331	384	very fast when he
+335	616	a tree.
+348	660	D. was driving/was hitting
+349	215	A.drove/hit
+351	367	B. was driving/hit
+352	519	C. drove/was hitting
+366	323	the cows whena stranger
+368	166	7. Jack
+369	606	into the barn.
+385	214	A. milked/came B. was milking/came
+385	465	C. milked/was comingD. was milking/was coming
+405	583	into his car.
+406	166	8.Susan
+406	334	the burglar while he
+421	516	C.saw/was rushing
+423	216	A.saw/rushed
+424	667	D. was seeing/was rushing
+425	367	B. was seeing/rushed
+441	165	9.When my mobile phone
+441	567	on a pair of shoes in a shop.
+444	442	I
+459	667	D. was ringing/was trying
+460	366	B.rang/was trying
+462	216	A. was ringing/tried
+462	518	C. rang/tried
+478	550	this old photograph.
+481	352	for my keys, I
+482	170	10.While I
+496	215	A. was looking/found
+496	670	D. was looking/was finding
+499	365	B. looked/was finding
+499	502	C.looked/found
+535	607	youwiththefurniture.
+537	167	11.“We're moving house tomorrow.'-‘Really?I
+556	365	B.help
+556	617	D.am helping
+559	215	A.am going to help
+560	469	C. will help
+577	167	12.Jenny and her parents
+578	412	toFloridafortheirnextholiday-theyalreadybookedthetickets.
+599	668	D.may travel
+600	215	A. are going to travel B. travel
+600	518	C.will travel
+617	691	lendyou my umbrella."
+619	167	13.“Oh,no!It's raining and I must go to the shop."-"No problem.I
+639	215	A.lend
+639	367	B.am going tolendC.maylend
+640	669	D. will lend
+659	368	a picnicatHuongPagoda thisSunday.Wehave planned foreverything.
+660	168	14.Our class
+676	214	A.am having
+678	366	B.will have
+678	668	D.Have
+681	519	C. is going to have
+697	734	you some."
+698	166	15.“I haven't got enough money to pay for my ticket."-“It's OK.1
+716	599	1D.amlending
+719	215	A.will lend
+720	368	B.lend
+720	467	C.am going tolend
+738	167	16.Look at those fierce dogs!They are running wildly.They
+739	686	those cats by the wall.
+759	214	A.attack
+759	518	C.will attack
+760	668	D. are going to attack
+761	368	B.attacked
+779	313	footballwithSamat1p.m.tomorrow.ARRANGEMENT
+781	168	17. 1
+799	366	B.am going to play
+799	516	C.will play
+800	668	D.am playing
+801	215	A.play
+821	168	18.My dad
+822	336	meandmyfriendstomyfavouriterestaurantformybirthday.INTENTION
+838	617	D.is taking
+840	316	B. is going to take
+841	208	A.take
+844	469	C.will take
+859	166	19.We don't expect George
+861	467	to theparty.PREDICTION
+879	466	C.willcome
+880	617	D.is coming
+881	317	B.is going to come
+883	209	A.come
+901	167	20.Ipromise you
+901	398	thisrestaurant.
+920	366	B.love
+920	518	C.are loving
+921	667	D. are going to love
+923	216	A. will love
+965	516	G SAtSLom
+985	169	21.Jack hid in the
+985	416	box.
+1002	215	A.big brown square B.brown square big
+1004	516	C. big square brown d. square big brown
+1023	446	ring.
+1025	168	22. She is wearing a/an
+1042	215	A.diamond expensive big
+1044	518	C. expensive big diamond
+1064	215	B. big expensive diamond
+1064	517	D. big expensive diamond
+1083	166	23. This is a
+1086	391	movie.
+1102	214	A. new Italian wonderful
+1105	518	C. wonderful new Italian
+1125	216	B. wonderful Italian new
+1125	518	D. new wonderful Italian
+1144	389	supermodel.
+1145	167	24. She is a
+1162	215	A.beautiful slim Brazilian
+1164	518	C.slim Brazilian beautiful
+1186	216	B.Brazilian beautiful slim
+1186	518	D. slim beautiful Brazilian
+1204	167	25.Tom Cruise is a very
+1210	448	actor.
+1226	468	C. American handsome film
+1227	217	A. film handsome American
+1246	466	D.film American handsome
+1247	217	B. handsome American film
