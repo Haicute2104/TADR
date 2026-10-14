@@ -282,7 +282,11 @@
     "options": [
       {
         "key": "A",
-        "text": "are going to travel B. travel"
+        "text": "are going to travel"
+      },
+      {
+        "key": "B",
+        "text": "travel"
       },
       {
         "key": "C",
@@ -324,7 +328,7 @@
     "number": 14,
     "pageId": "g1",
     "topic": "Quá khứ đơn / tiếp diễn",
-    "stem": "Our class ______ a picnic at Huon g Pagoda this Sunday. Wehave planned for everything",
+    "stem": "Our class ______ a picnic at Huong Pagoda this Sunday. We have planned for everything",
     "options": [
       {
         "key": "A",
@@ -503,14 +507,22 @@
     "options": [
       {
         "key": "A",
-        "text": "big brown square B. brown square big"
+        "text": "big brown square"
+      },
+      {
+        "key": "B",
+        "text": "brown square big"
       },
       {
         "key": "C",
-        "text": "big square brown d. square big brown"
+        "text": "big square brown"
+      },
+      {
+        "key": "D",
+        "text": "square big brown"
       }
     ],
-    "answer": "A"
+    "answer": "C"
   },
   {
     "number": 22,
@@ -720,7 +732,19 @@
     "options": [
       {
         "key": "A",
-        "text": "big wooden brown B. big brown wooden C. wooden big brown D. brown big wooden"
+        "text": "big wooden brown"
+      },
+      {
+        "key": "B",
+        "text": "big brown wooden"
+      },
+      {
+        "key": "C",
+        "text": "wooden big brown"
+      },
+      {
+        "key": "D",
+        "text": "brown big wooden"
       }
     ],
     "answer": "B"
@@ -738,6 +762,10 @@
       {
         "key": "B",
         "text": "pass"
+      },
+      {
+        "key": "C",
+        "text": "perform"
       },
       {
         "key": "D",
@@ -788,6 +816,10 @@
       {
         "key": "C",
         "text": "gets"
+      },
+      {
+        "key": "D",
+        "text": "plays"
       }
     ],
     "answer": "B"
@@ -796,7 +828,7 @@
     "number": 34,
     "pageId": "g2",
     "topic": "Tính từ, trường học và thể thao",
-    "stem": "Schoolchildren are fond of ______ every year",
+    "stem": "School children are fond of ______ every year",
     "options": [
       {
         "key": "A",
@@ -1221,7 +1253,7 @@
     "number": 51,
     "pageId": "g3",
     "topic": "Quần áo, nhà cửa, giao thông",
-    "stem": "Teenagers usually try tobuy the most ______ clothes they can afford with their pocket money",
+    "stem": "Teenagers usually try to buy the most ______ clothes they can afford with their pocket money",
     "options": [
       {
         "key": "A",
@@ -1230,6 +1262,10 @@
       {
         "key": "B",
         "text": "casual"
+      },
+      {
+        "key": "C",
+        "text": "smarts"
       },
       {
         "key": "D",
@@ -1417,7 +1453,7 @@
     "number": 59,
     "pageId": "g3",
     "topic": "Quần áo, nhà cửa, giao thông",
-    "stem": "Sarah says we can just wear ______ clothes tera ry, like T shirts and js",
+    "stem": "Sarah says we can just wear ______ clothes to her party, like T shirts and jeans",
     "options": [
       {
         "key": "A",
@@ -1792,7 +1828,7 @@
     "number": 74,
     "pageId": "g3",
     "topic": "Quần áo, nhà cửa, giao thông",
-    "stem": "Thebus was so ______ that there wasn't any room for more passengers",
+    "stem": "The bus was so ______ that there wasn't any room for more passengers",
     "options": [
       {
         "key": "A",
@@ -1892,7 +1928,7 @@
     "number": 78,
     "pageId": "g3",
     "topic": "Quần áo, nhà cửa, giao thông",
-    "stem": "Travelling byboat canbe unpleasant if there arebig ______",
+    "stem": "Travelling by boat can be unpleasant if there are big ______",
     "options": [
       {
         "key": "A",
@@ -1917,7 +1953,7 @@
     "number": 79,
     "pageId": "g4",
     "topic": "Phrasal verb và word formation",
-    "stem": "You can hire aboat if you walk down to the ______",
+    "stem": "You can hire a boat if you walk down to the ______",
     "options": [
       {
         "key": "A",
@@ -1926,6 +1962,10 @@
       {
         "key": "B",
         "text": "airport"
+      },
+      {
+        "key": "C",
+        "text": "station"
       },
       {
         "key": "D",
@@ -2238,7 +2278,7 @@
     "number": 92,
     "pageId": "g4",
     "topic": "Phrasal verb và word formation",
-    "stem": "Itwas late when the film finished, sowe all ______ home",
+    "stem": "It was late when the film finished, sowe all ______ home",
     "options": [
       {
         "key": "A",
@@ -2313,7 +2353,7 @@
     "number": 95,
     "pageId": "g4",
     "topic": "Phrasal verb và word formation",
-    "stem": "1still can't ______ up my mind which T-shirt to bury-blue or green?",
+    "stem": "I still can't ______ up my mind which T-shirt to bury-blue or green?",
     "options": [
       {
         "key": "A",
@@ -2655,7 +2695,7 @@
     "number": 119,
     "pageId": "g5",
     "topic": "Word formation",
-    "stem": "My teacher says Ineed to be more ______",
+    "stem": "My teacher says I need to be more ______",
     "options": [
       {
         "key": "A",

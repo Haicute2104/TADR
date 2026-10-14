@@ -456,15 +456,15 @@
         "options": [
           {
             "key": "A",
-            "text": "Only people who are trained in kitchen work"
+            "text": "Only people who are trained in kitchen work should apply for these part-time jobs"
           },
           {
             "key": "B",
-            "text": "There arepart-time opportunities for people"
+            "text": "There are part-time opportunities for people without experience of working in a kitchen"
           },
           {
             "key": "C",
-            "text": "We offer cheap meals to people whowork part-"
+            "text": "We offer cheap meals to people who work part-time in our kitchen"
           }
         ]
       }
@@ -750,15 +750,15 @@
         "options": [
           {
             "key": "A",
-            "text": "We get fresh vegetables from the farmers"
+            "text": "We get fresh vegetables from the farmers with the cheapest prices" 
           },
           {
             "key": "B",
-            "text": "We promise you won’t find lower-priced"
+            "text": "We promise you won’t find lower-priced fresh vegetables than ours"
           },
           {
             "key": "C",
-            "text": "We buy our fresh vegetables locally to save you"
+            "text": "We buy our fresh vegetables locally to save you money"
           }
         ]
       },
@@ -995,7 +995,7 @@
           },
           {
             "key": "B",
-            "text": "Passengers s should remember to takeall their bags with"
+            "text": "Passengers s should remember to takeall their bags with them"
           },
           {
             "key": "C",
