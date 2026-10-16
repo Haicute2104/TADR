@@ -2253,7 +2253,7 @@
     "number": 91,
     "pageId": "g4",
     "topic": "Phrasal verb và word formation",
-    "stem": "I need to ______ some lunch before Igo into town. I'm hungry！",
+    "stem": "I need to ______ some lunch before I go into town. I'm hungry！",
     "options": [
       {
         "key": "A",
@@ -2422,7 +2422,7 @@
         "text": "surprises"
       }
     ],
-    "answer": "B"
+    "answer": "A"
   },
   {
     "number": 98,
@@ -2574,7 +2574,7 @@
     "number": 114,
     "pageId": "g4",
     "topic": "Phrasal verb và word formation",
-    "stem": "It's important to ______ yourself todo things youfind scary",
+    "stem": "It's important to ______ yourself to do things you find scary",
     "options": [
       {
         "key": "A",
@@ -2599,7 +2599,7 @@
     "number": 115,
     "pageId": "g4",
     "topic": "Phrasal verb và word formation",
-    "stem": "Performing ina band can beabig ______",
+    "stem": "Performing in a band can be a big ______",
     "options": [
       {
         "key": "A",
@@ -2624,7 +2624,7 @@
     "number": 116,
     "pageId": "g4",
     "topic": "Phrasal verb và word formation",
-    "stem": "The ride wasn't as ______ as I expected ______",
+    "stem": "The ride wasn't as ______ as I expected",
     "options": [
       {
         "key": "A",
@@ -2670,7 +2670,7 @@
     "number": 118,
     "pageId": "g5",
     "topic": "Word formation",
-    "stem": "Alot ofyoung people don't feel ______ watching films with their parents",
+    "stem": "A lot of young people don't feel ______ watching films with their parents",
     "options": [
       {
         "key": "A",

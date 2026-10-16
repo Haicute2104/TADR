@@ -158,15 +158,15 @@
         "options": [
           {
             "key": "A",
-            "text": "Please come downstairs and try our recently improved"
+            "text": "Please come downstairs and try our recently improved restaurant"
           },
           {
             "key": "B",
-            "text": "The restaurant will r reopen when thei improvements are"
+            "text": "The restaurant will r reopen when thei improvements are finished"
           },
           {
             "key": "C",
-            "text": "Youcan only eat in one part of the restaurant at the"
+            "text": "You can only eat in one part of the restaurant at the moment"
           }
         ]
       },
@@ -526,20 +526,20 @@
         "setId": "read-05",
         "setTitle": "8.1",
         "answer": "B",
-        "notice": "Keep your bus ticket. Transport\nofficers may request tosee it at\nany time",
+        "notice": "Keep your bus ticket. Transport\nofficers may request to see it at\nany time",
         "prompt": "transport officer journey a transport officer",
         "options": [
           {
             "key": "A",
-            "text": "If you lose your bus ticket, you should inform a"
+            "text": "If you lose your bus ticket, you should inform a transport officer"
           },
           {
             "key": "B",
-            "text": "There could be ticket checks during your bus"
+            "text": "There could be ticket checks during your bus journey"
           },
           {
             "key": "C",
-            "text": "Passengers without a ticket may request one from"
+            "text": "Passengers without a ticket may request one from a transport officer"
           }
         ]
       },
@@ -934,7 +934,7 @@
         "setId": "read-08",
         "setTitle": "8.4",
         "answer": "B",
-        "notice": "COMFORTABLE S OF A\n20\ntoo large for my new\napartment\nBuyer must collect\nCall Andre:298354",
+        "notice": "COMFORTABLE A\n20$\ntoo large for my new\napartment\nBuyer must collect\nCall Andre:298354",
         "prompt": "What does the text say?",
         "options": [
           {
@@ -947,7 +947,7 @@
           },
           {
             "key": "C",
-            "text": "Buyers should call Andre to arrange transport for the"
+            "text": "Buyers should call Andre to arrange transport for the sofa"
           }
         ]
       }

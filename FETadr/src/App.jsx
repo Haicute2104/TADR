@@ -7,6 +7,7 @@ import { MockPage } from "./pages/MockPage"
 import { PlanPage } from "./pages/PlanPage"
 import { ReadingPage } from "./pages/ReadingPage"
 import { SpeakingPage } from "./pages/SpeakingPage"
+import { VocabPage } from "./pages/VocabPage"
 import { WritingPage } from "./pages/WritingPage"
 
 const { Header, Content, Footer, Sider } = Layout
@@ -18,6 +19,7 @@ const items = [
   { key: "writing", label: "Viết lại câu" },
   { key: "letter", label: "Viết thư" },
   { key: "speaking", label: "Nói" },
+  { key: "vocab", label: "Từ mới" },
   { key: "mock", label: "Thi thử" },
   { key: "plan", label: "Plan chấm điểm" },
 ]
@@ -89,13 +91,14 @@ export default function App() {
             {page === "writing" && <WritingPage />}
             {page === "letter" && <LetterPage />}
             {page === "speaking" && <SpeakingPage onOpenPlan={() => openPage("plan")} />}
+            {page === "vocab" && <VocabPage />}
             {page === "mock" && <MockPage />}
             {page === "plan" && <PlanPage />}
           </div>
         </Content>
         <Footer className="site-footer">
           <div className="site-footer-title">Đại học Thủy Lợi</div>
-          <div>Ôn thi tiếng Anh đầu ra B1 · Nghe, đọc, viết lại câu, viết thư, nói và thi thử.</div>
+          <div>Ôn thi tiếng Anh đầu ra B1 · Nghe, đọc, viết lại câu, viết thư, nói, từ mới và thi thử.</div>
         </Footer>
       </Layout>
     </Layout>
