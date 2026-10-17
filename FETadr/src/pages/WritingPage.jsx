@@ -1,5 +1,5 @@
-import { Alert, Button, Checkbox, Input, Modal, Tag, Typography } from "antd"
-import { memo, useCallback, useMemo, useState } from "react"
+import { Alert, Button, Checkbox, Dropdown, Input, Modal, Select, Tag, Typography } from "antd"
+import { memo, useCallback, useMemo, useRef, useState } from "react"
 import { categoryOrder, hintFor, writingHints } from "../data/hints"
 import writingItems from "../data/writingItems.json"
 import { acceptsWrittenAnswer, answerLeadFor } from "../lib/answers"
@@ -76,16 +76,16 @@ const RewriteRow = memo(function RewriteRow({
 })
 
 export function WritingPage() {
+  const [category, setCategory] = useState("all")
   const [picked, setPicked] = useState(() => [...categoryOrder])
-  const [queue, setQueue] = useState(() => writingItems.map((item) => item.id))
+  const [queue, setQueue] = useState(null)
+  const [mixOpen, setMixOpen] = useState(false)
+  const closingMix = useRef(false)
   const pool = useMemo(() => {
-    const allow = new Set(picked)
-    const chosen = writingItems.filter((item) => allow.has(item.category))
-    const chosenIds = new Set(chosen.map((item) => item.id))
-    const ordered = queue.map((id) => itemsById.get(id)).filter((item) => item && chosenIds.has(item.id))
-    const queued = new Set(ordered.map((item) => item.id))
-    return [...ordered, ...chosen.filter((item) => !queued.has(item.id))]
-  }, [picked, queue])
+    if (queue) return queue.map((id) => itemsById.get(id)).filter(Boolean)
+    if (category === "all") return writingItems
+    return writingItems.filter((item) => item.category === category)
+  }, [category, queue])
   const [drafts, setDrafts] = useState({})
   const [checked, setChecked] = useState({})
   const [shown, setShown] = useState({})
@@ -106,36 +106,74 @@ export function WritingPage() {
   const shufflePicked = useCallback(() => {
     const allow = new Set(picked)
     const ids = writingItems.filter((item) => allow.has(item.category)).map((item) => item.id)
+    if (!ids.length) return
     setQueue(shuffleIds(ids))
+    closingMix.current = true
+    setMixOpen(false)
   }, [picked])
 
   return (
     <div>
       <Title level={3} style={{ marginTop: 0 }}>Viết lại câu</Title>
       <Paragraph>
-        Chọn một hoặc nhiều chủ đề, rồi xáo trộn để viết. Nếu đề in sẵn đầu câu, viết tiếp vào ô. Câu không in sẵn thì viết cả câu, rồi bấm Kiểm tra.
+        Nếu đề in sẵn đầu câu, viết tiếp vào ô. Câu không in sẵn thì viết cả câu, rồi bấm Kiểm tra.
       </Paragraph>
-      <div className="rewrite-setup">
-        <div className="rewrite-setup-row">
-          <Text strong>Chủ đề · {pool.length} câu</Text>
-          <div className="rewrite-setup-actions">
-            <Button onClick={() => setPicked([...categoryOrder])}>Chọn tất cả</Button>
-            <Button onClick={() => setPicked([])}>Bỏ chọn</Button>
-            <Button type="primary" disabled={picked.length === 0} onClick={shufflePicked}>Xáo trộn</Button>
-          </div>
-        </div>
-        <Checkbox.Group
-          className="rewrite-topics"
-          value={picked}
-          options={categoryOrder.map((id) => ({
-            value: id,
-            label: `${writingHints[id].title} (${categoryCounts[id]})`,
-          }))}
-          onChange={(values) => setPicked(values.map(String))}
+      <div className="rewrite-toolbar">
+        <Select
+          value={category}
+          onChange={(value) => {
+            setCategory(value)
+            setQueue(null)
+          }}
+          options={[
+            { value: "all", label: `Tất cả (${writingItems.length} câu)` },
+            ...categoryOrder.map((id) => ({
+              value: id,
+              label: `${writingHints[id].title} (${categoryCounts[id]})`,
+            })),
+          ]}
         />
+        <Dropdown
+          trigger={["click"]}
+          classNames={{ root: "rewrite-mix-popup" }}
+          open={mixOpen}
+          onOpenChange={(open) => {
+            if (open && closingMix.current) {
+              closingMix.current = false
+              setMixOpen(false)
+              return
+            }
+            setMixOpen(open)
+          }}
+          popupRender={() => (
+            <div className="rewrite-mix-panel" onMouseDown={(event) => event.preventDefault()}>
+              <div className="rewrite-mix-tools">
+                <Button type="link" onClick={() => setPicked([...categoryOrder])}>Chọn tất cả</Button>
+                <Button type="link" onClick={() => setPicked([])}>Bỏ chọn tất cả</Button>
+              </div>
+              <Checkbox.Group
+                className="rewrite-topics"
+                value={picked}
+                options={categoryOrder.map((id) => ({
+                  value: id,
+                  label: `${writingHints[id].title} (${categoryCounts[id]})`,
+                }))}
+                onChange={(values) => setPicked(values.map(String))}
+              />
+              <Button type="primary" block disabled={picked.length === 0} onClick={shufflePicked}>
+                Trộn {picked.reduce((sum, id) => sum + (categoryCounts[id] ?? 0), 0)} câu
+              </Button>
+            </div>
+          )}
+        >
+          <button type="button" className="rewrite-mix-trigger">
+            <span>{queue ? `Đã trộn · ${queue.length} câu` : "Trộn câu"}</span>
+            <span className="rewrite-mix-caret" />
+          </button>
+        </Dropdown>
       </div>
       <div className="rewrite-list">
-        {pool.length === 0 && <Alert type="info" showIcon title="Chọn ít nhất một chủ đề để hiện câu." />}
+        {pool.length === 0 && <Alert type="info" showIcon title="Chọn ít nhất một chủ đề trong Trộn câu." />}
         {pool.map((item) => (
           <RewriteRow
             key={item.id}
