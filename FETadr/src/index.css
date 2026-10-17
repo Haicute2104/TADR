@@ -93,6 +93,35 @@ img {
   margin-bottom: 4px;
 }
 
+.rewrite-setup {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 16px;
+  padding: 14px 16px;
+  border: 1px solid #e6edf5;
+  border-radius: 12px;
+  background: #f7f9fc;
+}
+
+.rewrite-setup-row,
+.rewrite-setup-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.rewrite-setup-row {
+  justify-content: space-between;
+}
+
+.rewrite-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+}
+
 .rewrite-list {
   display: flex;
   flex-direction: column;

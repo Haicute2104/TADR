@@ -1,4 +1,4 @@
-import { Alert, Button, Input, Modal, Select, Tag, Typography } from "antd"
+import { Alert, Button, Checkbox, Input, Modal, Tag, Typography } from "antd"
 import { memo, useCallback, useMemo, useState } from "react"
 import { categoryOrder, hintFor, writingHints } from "../data/hints"
 import writingItems from "../data/writingItems.json"
@@ -11,6 +11,18 @@ const categoryCounts = Object.fromEntries(categoryOrder.map((id) => [
   id,
   writingItems.filter((item) => item.category === id).length,
 ]))
+const itemsById = new Map(writingItems.map((item) => [item.id, item]))
+
+function shuffleIds(ids) {
+  const next = [...ids]
+  for (let index = next.length - 1; index > 0; index -= 1) {
+    const swapIndex = Math.floor(Math.random() * (index + 1))
+    const current = next[index]
+    next[index] = next[swapIndex]
+    next[swapIndex] = current
+  }
+  return next
+}
 
 const RewriteRow = memo(function RewriteRow({
   item,
@@ -64,11 +76,16 @@ const RewriteRow = memo(function RewriteRow({
 })
 
 export function WritingPage() {
-  const [category, setCategory] = useState("all")
-  const pool = useMemo(
-    () => (category === "all" ? writingItems : writingItems.filter((item) => item.category === category)),
-    [category],
-  )
+  const [picked, setPicked] = useState(() => [...categoryOrder])
+  const [queue, setQueue] = useState(() => writingItems.map((item) => item.id))
+  const pool = useMemo(() => {
+    const allow = new Set(picked)
+    const chosen = writingItems.filter((item) => allow.has(item.category))
+    const chosenIds = new Set(chosen.map((item) => item.id))
+    const ordered = queue.map((id) => itemsById.get(id)).filter((item) => item && chosenIds.has(item.id))
+    const queued = new Set(ordered.map((item) => item.id))
+    return [...ordered, ...chosen.filter((item) => !queued.has(item.id))]
+  }, [picked, queue])
   const [drafts, setDrafts] = useState({})
   const [checked, setChecked] = useState({})
   const [shown, setShown] = useState({})
@@ -86,26 +103,39 @@ export function WritingPage() {
     setShown((current) => ({ ...current, [id]: !current[id] }))
   }, [])
   const onHint = useCallback((id) => setHintId(id), [])
+  const shufflePicked = useCallback(() => {
+    const allow = new Set(picked)
+    const ids = writingItems.filter((item) => allow.has(item.category)).map((item) => item.id)
+    setQueue(shuffleIds(ids))
+  }, [picked])
 
   return (
     <div>
       <Title level={3} style={{ marginTop: 0 }}>Viết lại câu</Title>
       <Paragraph>
-        Nếu đề in sẵn đầu câu, viết tiếp vào ô. Câu không in sẵn thì viết cả câu, rồi bấm Kiểm tra.
+        Chọn một hoặc nhiều chủ đề, rồi xáo trộn để viết. Nếu đề in sẵn đầu câu, viết tiếp vào ô. Câu không in sẵn thì viết cả câu, rồi bấm Kiểm tra.
       </Paragraph>
-      <Select
-        value={category}
-        style={{ minWidth: 320, marginBottom: 16 }}
-        onChange={setCategory}
-        options={[
-          { value: "all", label: `Tất cả (${writingItems.length} câu)` },
-          ...categoryOrder.map((id) => ({
+      <div className="rewrite-setup">
+        <div className="rewrite-setup-row">
+          <Text strong>Chủ đề · {pool.length} câu</Text>
+          <div className="rewrite-setup-actions">
+            <Button onClick={() => setPicked([...categoryOrder])}>Chọn tất cả</Button>
+            <Button onClick={() => setPicked([])}>Bỏ chọn</Button>
+            <Button type="primary" disabled={picked.length === 0} onClick={shufflePicked}>Xáo trộn</Button>
+          </div>
+        </div>
+        <Checkbox.Group
+          className="rewrite-topics"
+          value={picked}
+          options={categoryOrder.map((id) => ({
             value: id,
             label: `${writingHints[id].title} (${categoryCounts[id]})`,
-          })),
-        ]}
-      />
+          }))}
+          onChange={(values) => setPicked(values.map(String))}
+        />
+      </div>
       <div className="rewrite-list">
+        {pool.length === 0 && <Alert type="info" showIcon title="Chọn ít nhất một chủ đề để hiện câu." />}
         {pool.map((item) => (
           <RewriteRow
             key={item.id}
